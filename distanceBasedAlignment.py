@@ -4,12 +4,6 @@ from Bio.Phylo.TreeConstruction import DistanceCalculator
 from Bio import Align
 from Bio.Align import MultipleSeqAlignment
 
-"""
-birds.aln-clustalw is a multiple sequence alignment of 5 bird species:
-I pulled the data off of NCBI, aligned with muscle in clustalw format,
-and then used that to verify the tree construction
-"""
-
 class DistanceBasedAlignment:
 
     def __init__(self, calculator='identity'):
@@ -47,6 +41,12 @@ class DistanceBasedAlignment:
         Phylo.draw_ascii(nj_tree)
 
 tree_builder = DistanceBasedAlignment()
+
+"""
+birds.aln-clustalw is a multiple sequence alignment of 5 bird species:
+I pulled the data off of NCBI, aligned with muscle in clustalw format,
+and then used that to verify the tree construction
+"""
 
 tree_builder.upgma('birds.aln-clustalw')
 tree_builder.nj('birds.aln-clustalw')
