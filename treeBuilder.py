@@ -18,9 +18,9 @@ def upgma(file):
     the phylip format. 
     """
 
-    aln = Align.read(open(file), 'phylip')
+    aln = Align.read(open(file), 'clustal')
     constructor = DistanceTreeConstructor()
-    calculator = DistanceCalculator(calculator)
+    calculator = DistanceCalculator("identity")
     dm = calculator.get_distance(msa=aln)
     upgma_tree = constructor.upgma(dm)
     return upgma_tree
@@ -32,9 +32,9 @@ def nj(file):
     in the same directory with the phylip format.
     """
 
-    aln = Align.read(open(file), 'phylip')
+    aln = Align.read(open(file), 'clustal')
     constructor = DistanceTreeConstructor()
-    calculator = DistanceCalculator(calculator)
+    calculator = DistanceCalculator("identity")
 
     dm = calculator.get_distance(msa=aln)
     nj_tree = constructor.nj(dm)
