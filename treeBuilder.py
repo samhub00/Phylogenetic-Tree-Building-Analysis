@@ -12,13 +12,11 @@ from cogent3 import load_aligned_seqs
 #SH
 
 
-def upgma(file):
+def upgma(file, file_format="clustal"):
     """
-    Uses the UPGMA algorithm to build a tree from a multiple sequence alignment file located in the same directory with
-    the phylip format. 
+    Uses the UPGMA algorithm to build a tree from a multiple sequence alignment file.
     """
-
-    aln = Align.read(open(file), 'clustal')
+    aln = Align.read(open(file), file_format)
     constructor = DistanceTreeConstructor()
     calculator = DistanceCalculator("identity")
     dm = calculator.get_distance(msa=aln)
@@ -26,16 +24,13 @@ def upgma(file):
     return upgma_tree
 
 
-def nj(file):
+def nj(file, file_format="clustal"):
     """
-    Uses the Neighbor Joining tree building algorithm to build a tree from a multiple sequence alignment file located 
-    in the same directory with the phylip format.
+    Uses the Neighbor Joining tree building algorithm to build a tree from a multiple sequence alignment file.
     """
-
-    aln = Align.read(open(file), 'clustal')
+    aln = Align.read(open(file), file_format)
     constructor = DistanceTreeConstructor()
     calculator = DistanceCalculator("identity")
-
     dm = calculator.get_distance(msa=aln)
     nj_tree = constructor.nj(dm)
     return nj_tree
