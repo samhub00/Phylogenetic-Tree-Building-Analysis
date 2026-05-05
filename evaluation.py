@@ -134,3 +134,31 @@ results = [
 ]
 
 save_results_csv(results)
+
+"""
+Evaluation metrics that we need:
+    True trees from INDELible or Rose
+    Parameters: Evolutionary models like Jukes-Cantor, general Time reversible
+    Topological Accuracy: nRF distance which measures the distance between the inferred tree and true trees (where do we get the true tree?)
+    Branch Length Accuracy: Correlation coefficient between inferred branch lengths and true simulated branch lengths (which ones are simulate?)
+    Support values: Evaluate the bootstrap percentages for the ML/NJ or posterior probabilities for BI to assess Node Reliability
+    CPU usage? is there a way to track the computing done 
+    """
+
+"""
+Comparative Analysis
+    R packages like ape, phangorn, and tree cluster? any python package avaliability?
+    Calculate nRF, bootstrap support and running times for every result
+    Simulate specific datasets with two long non-sister branches to test for systematic errors
+    (what is a systematic error?)
+    
+    """
+
+"""
+Determine which method are the best at which tasks
+
+Visualization:
+    Scalabiilty graph: time taken / number of taxa
+    Accuracy heatmap: Seaborn or something? topological representation of accuracy accross different evo rates and tree sizes
+    decision tree or flowchart that helps researchers select the best algorithm 
+"""
