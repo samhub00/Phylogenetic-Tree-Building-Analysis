@@ -5,14 +5,14 @@ from Bio import Align
 from Bio.Align import MultipleSeqAlignment
 import Bio.Phylo.TreeConstruction
 import subprocess
-from piqtree import build_tree
-from cogent3 import load_aligned_seqs
+#from piqtree import build_tree
+#from cogent3 import load_aligned_seqs
 
 
 #SH
 
 
-def upgma(file, file_format="clustal"):
+def upgma(file, file_format="phylip"):
     """
     Uses the UPGMA algorithm to build a tree from a multiple sequence alignment file.
     """
@@ -24,7 +24,7 @@ def upgma(file, file_format="clustal"):
     return upgma_tree
 
 
-def nj(file, file_format="clustal"):
+def nj(file, file_format="phylip"):
     """
     Uses the Neighbor Joining tree building algorithm to build a tree from a multiple sequence alignment file.
     """
@@ -92,6 +92,29 @@ def ml(file, model = 'JC', use_random_seed = False):
     if use_random_seed:
         seed = 1
 
-    aln = load_aligned_seqs(file)
-    ml_tree = build_tree(aln, model, rand_seed=seed)
-    return ml_tree
+    #aln = load_aligned_seqs(file)
+    #ml_tree = build_tree(aln, model, rand_seed=seed)
+    #return ml_tree
+
+
+upgma_tree = upgma('wolf_and_pals.aln-phylip_interleaved')
+
+nj_tree = nj('wolf_and_pals.aln-phylip_interleaved')
+
+#ml_tree = ml('wolf_and_pals.aln-phylip_interleaved')
+
+#mp_tree = mp('wolf_and_pals.aln-phylip_interleaved', nj_tree)
+
+print(upgma_tree)
+
+print(nj_tree)
+
+#print(ml_tree)
+
+#print(mp_tree)
+
+
+
+"""
+We need to hook up indelible or rose for true trees
+"""
