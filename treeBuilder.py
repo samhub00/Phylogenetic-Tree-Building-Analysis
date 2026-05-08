@@ -100,7 +100,7 @@ def ml(file, model = 'JC', rs=None):
 def visualize(trees):
     """
     Visualizes a list of trees using matplotlib. Each tree is displayed in a subplot with branch lengths labeled.
-    Opens in separate window
+    Opens in separate window.
     """
 
     num_trees = len(trees)
@@ -158,6 +158,7 @@ def build_trees(
 
     trees = []
 
+    #build trees using each method and add to list
     upgma_tree = upgma(get_dm(file, file_format='clustal', model=model))
     trees.append(upgma_tree)
     nj_tree = nj(get_dm(file, file_format='clustal', model=model))
@@ -167,47 +168,14 @@ def build_trees(
     mp_tree = mp(file, nj_tree, a_format='clustal')
     trees.append(mp_tree)
 
+    #return list of trees in the order of UPGMA, NJ, ML, MP
     return trees
-"""
-trees = []
-
-upgma_tree = upgma(get_dm(r'alignments and sequences\cats.aln-clustalw', file_format='clustal'))
-
-trees.append(upgma_tree)
-
-nj_tree = nj(get_dm(r'alignments and sequences\cats.aln-clustalw', file_format='clustal'))
-
-trees.append(nj_tree)
-
-ml_tree = Bio.Phylo.read(io.StringIO(str(ml(r'alignments and sequences\cats.aln-clustalw'))), 'newick')
-
-trees.append(ml_tree)
-
-mp_tree = mp(r'alignments and sequences\cats.aln-clustalw', nj_tree, a_format='clustal')
-
-trees.append(mp_tree)
-
-visualize(trees)
 
 """
-
-#print("UPGMA tree results:")
-#Bio.Phylo.draw_ascii(upgma_tree)
-
-#print("NJ tree results: ")
-#Bio.Phylo.draw(nj_tree, branch_labels=lambda c: f"{c.branch_length:.2f}" if c.branch_length else "")
-
-#print("ML tree results: ")
-#Bio.Phylo.draw_ascii(ml_tree)
-#Bio.Phylo.draw(ml_tree, branch_labels=lambda c: f"{c.branch_length:.2f}" if c.branch_length else "")
-
-
-#print("MP tree results: ")
-#Bio.Phylo.draw_ascii(mp_tree)
-
-
-"""
-We need to hook up indelible or rose for true trees
+TODO:
+    hook up indelible or rose for true trees
+    add ncbi number to name for display purposes
+    export tree lengths for evaluation
 """
 
 visualize(build_trees(r'alignments and sequences\cats.aln-clustalw', model='blosum62', ml_model='JC', ml_random_seed=1))
