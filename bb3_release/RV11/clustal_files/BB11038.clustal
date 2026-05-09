@@ -1,0 +1,139 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+1csn_                               --------------------------------------------------
+1ad5_A                              EDIIVVALYDYEAIHHEDLSFQKGDQMVVLEESGEWWKARSLATRKEGYI
+1a9u_                               --------------------------------------------------
+1mq4_A                              --------------------------------------------------
+1how_A                              --------------------------------------------------
+1omw_A                              ------------------SKKILLPEPSIRSVMQKYLEDRGEVTFEKIFS
+1f3m_C                              --------------------------------------------------
+1b6c_B                              --------------------------------------------------
+
+1csn_                               --------------------------------------------------
+1ad5_A                              PSNYVARVDSLETEEWFFKGISRKDAERQLLAPGNMLGSFMIRDSETTKG
+1a9u_                               --------------------------------------------------
+1mq4_A                              --------------------------------------------------
+1how_A                              --------------------------------------------------
+1omw_A                              QKLGYLLFRDFCLKHLEEAKPLVEFYEEIKKYEKLETEEERLVCSREIFD
+1f3m_C                              --------------------------------------------------
+1b6c_B                              --------------------------------------------------
+
+1csn_                               --------------------------------------------------
+1ad5_A                              SYSLSVRDYDPRQGDTVKHYKIRTLDNGGFYISPRSTFSTLQELVDHYKK
+1a9u_                               --------------------------------------------------
+1mq4_A                              --------------------------------------------------
+1how_A                              --------------------------------------------------
+1omw_A                              TYIMKELLACSHPFSKSAIEHVQGHLVKKQVPPDLFQPYIEEICQNLRGD
+1f3m_C                              ---------------------------------------SDEEILEKLRS
+1b6c_B                              --------------------------------------TTLKDLIYDMTT
+
+1csn_                               ---------------------------NVVGVHYKVGRRIGEGSFGVIFE
+1ad5_A                              GNDGLCQKLSVPCMSSKPQKPWEKDAWEIPRESLKLEKKLGAGQFGEVWM
+1a9u_                               -----------ERPTFYRQELN--KTIWEVPERYQNLSPVGSGAYGSVCA
+1mq4_A                              --------------------------RQWALEDFEIGRPLGKGKFGNVYL
+1how_A                              -------------------FHPAFKGEPYKDARYILVRKLGWGHFSTVWL
+1omw_A                              VFQKF---IESDKFTRFCQWKNVELNIHLTMNDFSVHRIIGRGGFGEVYG
+1f3m_C                              IVSVGD-----------------------PKKKYTRFEKIGQGASGTVYT
+1b6c_B                              ---------------SGSGSGLPLLVQRTIARTIVLQESIGKGRFGEVWR
+
+1csn_                               GTNLLNNQQVAIKFEPR-----RSDAPQLRDEYRTYKLLAG---------
+1ad5_A                              ATYNK-HTKVAVKTMKP----GSMSVEAFLAEANVMKTLQ----------
+1a9u_                               AFDTKTGLRVAVKKLSRPFQ-SIIHAKRTYRELRLLKHMK----------
+1mq4_A                              AREKQSKFILALKVLFKAQLEKAGVEHQLRREVEIQSHLR----------
+1how_A                              AKDMVNNTHVAMKIVRG----DKVYTEAAEDEIKLLQRVNDADNTKEDSM
+1omw_A                              CRKADTGKMYAMKCLDKKRIKMKQGETLALNERIMLSLVS--------TG
+1f3m_C                              AMDVATGQEVAIRQMNLQQ---QPKKELIINEILVMRENK----------
+1b6c_B                              GKWR--GEEVAVKIFSS------REERSWFREAEIYQTVMLR--------
+
+1csn_                               -CTGIPNVYYFGQEG------LHNVLVIDLLG--PSLEDLLDLCG-RKFS
+1ad5_A                              -HDKLVKLHAVVTK-------EPIYIITEFMAK-GSLLDFLKSDEGSKQP
+1a9u_                               -HENVIGLLDVFTPARSLEEFNDVYLVTHLMG--ADLNNIVKCQK---LT
+1mq4_A                              -HPNILRLYGYFHDA------TRVYLILEYAPL-GTVYRELQKLS--KFD
+1how_A                              GANHILKLLDHFNHKG----PNGVHVVMVFEVLGENLLALIKKYEHRGIP
+1omw_A                              DCPFIVCMSYAFHTP------DKLSFILDLMNG-GDLHYHLSQHG--VFS
+1f3m_C                              -NPNIVNYLDSYLVG------DELWVVMEYLAG-GSLTDVVTETC---MD
+1b6c_B                              -HENILGFIAADNKDNG--TWTQLWLVSDYHEH-GSLFDYLNRYTV---T
+
+1csn_                               VKTVAMAAKQMLARVQSIHEK--------SLVYRDIKPDNFLIGRPNSKN
+1ad5_A                              LPKLIDFSAQIAEGMAFIEQR--------NYIHRDLRAANILVSAS----
+1a9u_                               DDHVQFLIYQILRGLKYIHSA--------DIIHRDLKPSNLAVN-----E
+1mq4_A                              EQRTATYITELANALSYCHSK--------RVIHRDIKPENLLLGS-----
+1how_A                              LIYVKQISKQLLLGLDYMHRRC-------GIIHTDIKPENVLMEIS-PEN
+1omw_A                              EADMRFYAAEIILGLEHMHNR--------FVVYRDLKPANILLDE-----
+1f3m_C                              EGQIAAVCRECLQALEFLHSN--------QVIHRDIKSDNILLG-----M
+1b6c_B                              VEGMIKLALSTASGLAHLHMEIVGTQGKPAIAHRDLKSKNILVKK-----
+
+1csn_                               ANMIYVVDFGMVKFYRDPVTKQHIPYREKKNLSGTARYMSINTHLG----
+1ad5_A                              -LVCKIADFGLARVG----------------AKFPIKWTAPEAINF----
+1a9u_                               DCELKILDFGLARHTD----------DEMTGYVATRWYRAPEIMLNW---
+1mq4_A                              AGELKIADFGWSVHAP-----------SSRTLCGTLDYLPPEMIEG----
+1how_A                              LIQIKIADLGNACWYDE----------HYTNSIQTREYRSPEVLLG----
+1omw_A                              HGHVRISDLGLACDFSK---------KKPHASVGTHGYMAPEVLQKG---
+1f3m_C                              DGSVKLTDFGFCAQIT--------------TMVGTPYWMAPEVVTR----
+1b6c_B                              NGTCCIADLGLAVRHDS---ATDTIDIAPNHRVGTKRYMAPEVLDDSINM
+
+1csn_                               --REQSRRDDLEALGHVFMYFLR-GSLPWQGLKA------------ATNK
+1ad5_A                              --GSFTIKSDVWSFGILLMEIVTYGRIPYPG---------------MSNP
+1a9u_                               --MHYNQTVDIWSVGCIMAELLT-GRTLFPGT---------------DHI
+1mq4_A                              --RMHDEKVDLWSLGVLCYEFLV-GKPPFEAN---------------TYQ
+1how_A                              --APWGCGADIWSTACLIFELIT-GDFLFEPD-------------DDDHI
+1omw_A                              --VAYDSSADWFSLGCMLFKLLR-GHSPFRQHK-------------TKDK
+1f3m_C                              --KAYGPKVDIWSLGIMAIEMIE-GEPPYLNE---------------NPL
+1b6c_B                              KHFESFKRADIYAMGLVFWEIAR-RCSIGGIHEDYQLPYYDLVPSDPSVE
+
+1csn_                               QKYERIGEKKQST--------------------------PLRELCAGFPE
+1ad5_A                              EVIRALERGYRMPRPE------------------------------NCPE
+1a9u_                               DQLKLILRLVGTPGAELLKKISSESARNYIQSLTQMPKMNFANVFIGANP
+1mq4_A                              ETYKRISRVEFTFPD-------------------------------FVTE
+1how_A                              AQIIELLGELPSYLLRNGKYTRTFFSKLKFWP-LEDVLTEKYKFSKDEAK
+1omw_A                              HEIDRMTLTMAVEL------------------------------PDSFSP
+1f3m_C                              RALYLIATN-------------------------GTPELQNPEKL---SA
+1b6c_B                              EMRKVVCEQK-------------------------LRPNIPNRWQSCEAL
+
+1csn_                               EFYKYMHYAR-----NLAFDATPDYDYLQGLFSKVLERLNTTEDENFDWN
+1ad5_A                              ELYNIMMRCW-----KNRPEERPTFEYIQSVLDDFYTATESQXQQQP---
+1a9u_                               LAVDLLEKML-----VLDSDKRITAAQALAHAYFAQYHDPDDEPVADPYD
+1mq4_A                              GARDLISRLL-----KHNPSQRPMLREVLEHPWITANSS-----------
+1how_A                              EISDFLSPML-----QLDPRKRADAGGLVNHPWLKDTLGMEEIRVPDREL
+1omw_A                              ELRSLLEGLLQRDVNRRLGCLGRGAQEVKESPFFRSLDWQMVFLQKYPPP
+1f3m_C                              IFRDFLNRCLDMDVEKRGSAKELLQHQFLKIAKPLSSLTPLIAAAKEATK
+1b6c_B                              RVMAKIMRECW----YANGAARLTALRIKKTLSQLSQQEG----------
+
+1csn_                               LL------------------------------------------------
+1ad5_A                              --------------------------------------------------
+1a9u_                               QSFESRDLLIDEWKSLTYDEVISFVPPPLD--------------------
+1mq4_A                              --------------------------------------------------
+1how_A                              YGSGSDIPGWFEEVR-----------------------------------
+1omw_A                              LIPPRGIKLLDSDQELYRNFPLTISERWQQEVAETVFDTINAETDRLEAR
+1f3m_C                              --------------------------------------------------
+1b6c_B                              --------------------------------------------------
+
+1csn_                               --------------------------------------------------
+1ad5_A                              --------------------------------------------------
+1a9u_                               --------------------------------------------------
+1mq4_A                              --------------------------------------------------
+1how_A                              --------------------------------------------------
+1omw_A                              KKTKNKQLGHEEDYALGKDCIMHGYMSKMGWQRRYFYLFPNRLEWRGEGE
+1f3m_C                              --------------------------------------------------
+1b6c_B                              --------------------------------------------------
+
+1csn_                               --------------------------------------------------
+1ad5_A                              --------------------------------------------------
+1a9u_                               --------------------------------------------------
+1mq4_A                              --------------------------------------------------
+1how_A                              --------------------------------------------------
+1omw_A                              APQSLLTMEEIQSVEETQIKERKCLLLKIRGGKQFVLQCDSDPELVQWKK
+1f3m_C                              --------------------------------------------------
+1b6c_B                              --------------------------------------------------
+
+1csn_                               -----------------------
+1ad5_A                              -----------------------
+1a9u_                               -----------------------
+1mq4_A                              -----------------------
+1how_A                              -----------------------
+1omw_A                              ELRDAYREAQQLVQRVPKMKNKP
+1f3m_C                              -----------------------
+1b6c_B                              -----------------------
+
+

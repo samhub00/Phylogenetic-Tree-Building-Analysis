@@ -1,0 +1,64 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+1csp                                --------------------------------------------------
+1mef                                --------------------------------------------------
+CSPA_BORPE                          --------------------------------------------------
+GRP2_NICSY                          --------------------------------------------------
+CSPA_RHIME                          --------------------------------------------------
+GR2B_ARATH                          --------------------------------------------------
+CSPA_RICCN                          --------------------------------------------------
+CSPH_ECOLI                          --------------------------------------------------
+PIPI_HUMAN                          MTSESTSPPVVPPLHSPKSPVWPTFPFHREGSRVWERGGVPPRDLPSPLP
+
+1csp                                -----------------MLEGKVKWFNSEKGFGFIEV-EGQDDVFVHFSA
+1mef                                --------------MSGKMTGIVKWFNADKGFGFITPDDGSKDVFVHFSA
+CSPA_BORPE                          -----------------METGVVKWFNAEKGYGFITPEAGGKDLFAHFSE
+GRP2_NICSY                          ----------MAEESGQRAKGTVKWFSDQKGFGFITPDDGGEDLFVHQSG
+CSPA_RHIME                          -----------------MNSGTVKWFNSTKGFGFIQPDDGATDVFVHASA
+GR2B_ARATH                          ----MSGGGDVNMSGGDRRKGTVKWFDTQKGFGFITPSDGGDDLFVHQSS
+CSPA_RICCN                          --------------MATNIVGKVKWYNSTKNFGFIEQDNGGKDVFVHKSA
+CSPH_ECOLI                          --------------MSRKMTGIVKTFDRKSGKGFIIPSDGRKEVQVHISA
+PIPI_HUMAN                          TKRTRTYSATARASAGPVFKGVCKQFSRSQGHGFITPENGSEDIFVHVSD
+
+1csp                                IQGEGFKTLEEGQAVSFEIVEGNR-GPQAANVTKEA--------------
+1mef                                IQNDGYKSLDEGQKVSFTIESGAK-GPAAGNVTSL---------------
+CSPA_BORPE                          IQANGFKSLEENQRVSFVTAMGPK-GPQATKIQIL---------------
+GRP2_NICSY                          IRSEGFRSLAEGETVEFEVESGGD-GRTKAVDVTGPDGAAVQGGRGGGGG
+CSPA_RHIME                          VERAGMRSLVEGQKVTYDIVRDTKSGKSSADNLRAA--------------
+GR2B_ARATH                          IRSEGFRSLAAEESVEFDVEVDNS-GRPKAIEVSGPDGAPVQGNSGGGGS
+CSPA_RICCN                          VDAAGLHSLEEGQDVIFDLEEKQG-KAYAVNLRIK---------------
+CSPH_ECOLI                          FTPRDAEVLIPGLRVEFCRVNGLR-GPTAANVYLS---------------
+PIPI_HUMAN                          IEGEYVPVEGDEVTYKMCPIPPKNQKFQAVEVVLTQLAPHTPHETWSGQV
+
+1csp                                --------------------------------------------------
+1mef                                --------------------------------------------------
+CSPA_BORPE                          --------------------------------------------------
+GRP2_NICSY                          GGGRGGGGYGGGSGGYGGGGRGGSRGYGGGDGGYGGGGGYGGGSRYGGGG
+CSPA_RHIME                          --------------------------------------------------
+GR2B_ARATH                          SGGRGGFGGGGGRGGGRGGGSYGGGYGGRGSGGRGGGGGDNSCFKCGEPG
+CSPA_RICCN                          --------------------------------------------------
+CSPH_ECOLI                          --------------------------------------------------
+PIPI_HUMAN                          VGS-----------------------------------------------
+
+1csp                                --------------------------------------------------
+1mef                                --------------------------------------------------
+CSPA_BORPE                          --------------------------------------------------
+GRP2_NICSY                          GGYGGGGGYGGGGSGGGSGCFKCGESGHFARDCSQSGGGGGGGRFGGGGG
+CSPA_RHIME                          --------------------------------------------------
+GR2B_ARATH                          HMARECSQGGGGYSGGGGGGRYGSGGGGGGGGGGLSCYSCGESGHFARDC
+CSPA_RICCN                          --------------------------------------------------
+CSPH_ECOLI                          --------------------------------------------------
+PIPI_HUMAN                          --------------------------------------------------
+
+1csp                                -------------------------
+1mef                                -------------------------
+CSPA_BORPE                          -------------------------
+GRP2_NICSY                          GGGGGGCYKCGEDGHFARECTSGGR
+CSPA_RHIME                          -------------------------
+GR2B_ARATH                          TSGGAR-------------------
+CSPA_RICCN                          -------------------------
+CSPH_ECOLI                          -------------------------
+PIPI_HUMAN                          -------------------------
+
+

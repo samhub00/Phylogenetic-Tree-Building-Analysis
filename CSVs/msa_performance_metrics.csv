@@ -1,0 +1,2 @@
+msa_file,seq_len,execution_time_seconds,cpu_time_seconds,peak_ram_mb
+alignments and sequences\cats.aln-clustalw,17029,2.2235283004119992,2.421875,152.87109375

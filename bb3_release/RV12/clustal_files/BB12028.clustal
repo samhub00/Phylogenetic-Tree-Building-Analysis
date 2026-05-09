@@ -1,0 +1,103 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+1cpj_A                              --------------------------------------------------
+TNAG_HUMAN                          MWTGYKFSIFSYLTTEIWMEKQYLSQREVDLEAYFTRNHTVLQGTRFKRA
+1jqp_A                              --------------------------------------------------
+CAL2_GIALA                          --------------------------------------------------
+1deu_A                              --------------------------------------------------
+1ppn_                               --------------------------------------------------
+1aim_                               --------------------------------------------------
+CATO_HUMAN                          --------------------------------------------------
+
+1cpj_A                              --------------------------------------------------
+TNAG_HUMAN                          IFQGQYCRNFGCCEDRDDGCVTEFYAANALCYCDKFCDRENSDCCPDYKS
+1jqp_A                              -----------------DTPANCTYPDLLGTWVFQVGPRHPRSHINCSVM
+CAL2_GIALA                          --------------------------------------------------
+1deu_A                              --------------------------------------------------
+1ppn_                               --------------------------------------------------
+1aim_                               --------------------------------------------------
+CATO_HUMAN                          -----------------------------MDVRALPWLPWLLWLLCRGGG
+
+1cpj_A                              --------------------------------------------------
+TNAG_HUMAN                          FCREEKEWPPHTQPWYPEGCFKDGQHYEEGSVIKENCNSCTCSGQQWKCS
+1jqp_A                              EPTEEKVVIHLKKLDTAY-DEVGNSGYFTLIYNQGFEIVLNDYKWFAFFK
+CAL2_GIALA                          ----------------MKLFLLAAAAFSAPALTVSELNHIKSLNPR----
+1deu_A                              --------------------------------------------------
+1ppn_                               --------------------------------------------------
+1aim_                               --------------------------------------------------
+CATO_HUMAN                          DADSRAPFTPTWPRSREREAAAFRESLNRHRYLNSLFPSENS--------
+
+1cpj_A                              --------------------------------------------------
+TNAG_HUMAN                          QHVCLVRPELIEQVNKGDYGWTAQNYSQFWGMTLEDGFKFRLGTLPPSPM
+1jqp_A                              ---------YEVKGSRAIS-YCH--ETMTGWVHD----VLGRNWACFVGK
+CAL2_GIALA                          ------------WKAGIPKRFEGLTKDEISSLLMPVSFLKNAKGAAPRGT
+1deu_A                              --------------------------------------------------
+1ppn_                               --------------------------------------------------
+1aim_                               --------------------------------------------------
+CATO_HUMAN                          -----------TAFYGINQ-FSYLFPEEFKAIYLRSKPSKFPRYSAEVHM
+
+1cpj_A                              ----------------LPESFDAREQWSNCPTIAQIRDQG---SCGSCWA
+TNAG_HUMAN                          LLSMNEMTASLPATTDLPEFFVASYKWP--GWTHGPLDQK---NCAASWA
+1jqp_A                              KM------------LSLPESWDWRNVR-GINFVSPVRNQE---SCGSCYS
+CAL2_GIALA                          FTDK----------DDVPESFDFREEYP--HCIPEVVDQG---GCGSCWA
+1deu_A                              ----------------LPKSWDWRNVD-GVNYASITRNQHIPQYCGSCWA
+1ppn_                               ----------------IPEYVDWRQK----GAVTPVKNQG---SCGSCWA
+1aim_                               ----------------APAAVDWRAR----GAVTAVKDQG---QCGSCWA
+CATO_HUMAN                          SIPN----------VSLPLRFDWRDK----QVVTQVRNQQ---MCGGCWA
+
+1cpj_A                              FGAVEAMSDRICIHTNG-RVNVEVSAEDLLTCCGIQCGDGCNGGYPSGAW
+TNAG_HUMAN                          FSTASVAADRIAIQSKG-RYTANLSPQNLISCCAK-NRHGCNSGSIDRAW
+1jqp_A                              FASLGMLEARIRILTNNS-QTPILSPQEVVSCSP--YAQGCDGGFPYLIA
+CAL2_GIALA                          FSSVATFGDRRCVAGLD-KKPVKYSPQYVVSCDH--GDMACNGGWLPNVW
+1deu_A                              HASTSAMADRINIKRKGAWPSTLLSVQNVIDCGN---AGSCEGGNDLSVW
+1ppn_                               FSAVVTIEGIIKIRTG---NLNEYSEQELLDCDR--RSYGCNGGYPWSAL
+1aim_                               FSAIGNVECQWFLAGH---PLTNLSEQMLVSCDK--TDSGCSGGLMNNAF
+CATO_HUMAN                          FSVVGAVESAYAIKGK---PLEDLSVQQVIDCSY--NNYGCNGGSTLNAL
+
+1cpj_A                              -NFWTRKGLVSGGVYNSHIGCLPYTIPPCEHHVNG-ARPPCT---GEGDT
+TNAG_HUMAN                          -WYLRKRG-------LVSHACYPLFKDQNATNNGCAMASRSDGRGKRDAT
+1jqp_A                              GKYAQDF-------GVVEENCFPYTA----------------------TD
+CAL2_GIALA                          -KFLTKTG-------TTTDECVPYKSGS------------------TTLR
+1deu_A                              -DYAHQH-------GIPDETCNNYQA----------------------KD
+1ppn_                               -QLVAQY-------GIHYRNTYPYEG----------------------VQ
+1aim_                               -EWIVQE-------AVYTEDSYPYAG----------------------IS
+CATO_HUMAN                          -NWLNKMQV-----KLVKDSEYPFKA----------------------QN
+
+1cpj_A                              PKCN-----------KMCEAGYSTSYKEDKHYGYTSYSV-SDSEKEIMAE
+TNAG_HUMAN                          KPCP------------NNVEKSNRIYQCSPPYRVS------SNETEIMKE
+1jqp_A                              APCK---------------PKENCLRYYSSEYYYVGGFYGGCNEALMKLE
+CAL2_GIALA                          GTCPTKCAD----------GSSKVHLATATSYKDYG-----LDIPAMMKA
+1deu_A                              QECDKFNQCGTCNEFKECHAIRNYTLWRVGDYGSLS------GREKMMAE
+1ppn_                               RYCR--------------SREKGPYAAKTDGVRQVQ----PYNEGALLYS
+1aim_                               PPCT---------------TSGHTVGATITGHVELP-----QDEAQIAAW
+CATO_HUMAN                          GLCH--------------YFSGSHSGFSIKGYSAYDFS---DQEDEMAKA
+
+1cpj_A                              IYKNGPVEGAFTVF-SDFLTYKSGVYKHEA--------GDVMGGHAIRIL
+TNAG_HUMAN                          IMQNGPVQAIMQVR-EDFFHYKTGIYRHVTSTNKESEKYRKLQTHAVKLT
+1jqp_A                              LVKHGPMAVAFEVH-DDFLHYHSGIYHHPFNPF-------ELTNHAVLLV
+CAL2_GIALA                          LSTSGPLQVAFLVH-SDFMYYESGVYQHTY--------GYMEGGHAVEMV
+1deu_A                              IYANGPISCGIMAT-ERLANYTGGIYAEYQ--------DTTYINHVVSVA
+1ppn_                               IA-NQPVSVVLEAAGKDFQLYRGGIFVGP--------CGN-KVDHAVAAV
+1aim_                               LAVNGPVAVAVDA--SSWMTYTGGVMTS---------CVS-ELDHGVLLV
+CATO_HUMAN                          LLTFGPLVVIVDA--VSWQDYLGG-IIQHH-------CSSGEANHAVLIT
+
+1cpj_A                              GWGIEN------GVPYWLVANSWNADWGDNGFFKILRG--------ENHC
+TNAG_HUMAN                          GWGTLRG-AQGQKEKFWIAANFWGKSWGENGYFRILRG--------VNES
+1jqp_A                              GYGKDPVT----GLDYWIVKNSWGSQWGESGYFRIRRG--------TDEC
+CAL2_GIALA                          GYGTDDD-----GVDYWIIKNSWGPDWGEDGYFRMIRG--------INDC
+1deu_A                              GWGISD------GTEYWIVRNSWGEPWGERGWLRIVTSTYKDGKGARYNL
+1ppn_                               GYGP----------NYILIKNSWGTGWGENGYIRIKRG----TGNSYGVC
+1aim_                               GYNV----------PYWIIKNSWTTQWGEEGYIRIAKG--------SNQC
+CATO_HUMAN                          GFDKTG------STPYWIVRNSWGSSWGVDGYAHVKMG--------SNVC
+
+1cpj_A                              GIESEIVAGIPRT------
+TNAG_HUMAN                          DIEKLVIAAWGQLTSSDEP
+1jqp_A                              AIESIAMAAIPIPKL----
+CAL2_GIALA                          SIEEQAYAGFFDE------
+1deu_A                              AIEEHCTFGDPIV------
+1ppn_                               GLYTSSFYPVKN-------
+1aim_                               LVKEEASSAVVG-------
+CATO_HUMAN                          GIADSVSSIFV--------
+
+

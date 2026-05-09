@@ -1,0 +1,160 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+1ac5_                               --------------------------------------------------
+1ysc_                               --------------------------------------------------
+1ivy_A                              --------------------------------------------------
+CPS1_PENJA                          --------------------------------------------------
+CBPX_ORYSA                          --------------------------------------------------
+CPVL_HUMAN                          MVGAMWKVIVSLVLLMPGPCDGLFRSLYRSVSMPPKGDSGQPLFLTPYIE
+YUA6_CAEEL                          ---------------------------------------MVMSRTLVLVA
+CBP1_HORVU                          --------------------------MARCRRRSGCTAGAALLLLLALAL
+NF31_NAEFO                          -----------------------------------------------MMM
+YSS2_CAEEL                          -------------------------------------MKLLSILFIFVSS
+RISC_HUMAN                          ------------------------------------------MELALRRS
+
+1ac5_                               --LPSSEEYKVAYELLPGLSEVPDPSNIPQMHAGHIPLRSEDADEQDSSD
+1ysc_                               ---------KIKDPKILGI------DPNVTQYTGYLDVE--------DED
+1ivy_A                              ------APDQDEIQRLPGL----AKQPSFRQYSGYLKSS---------GS
+CPS1_PENJA                          -----FVKNSGICETTPGV----------NQYSGYLSVG---------SN
+CBPX_ORYSA                          ----------MATGKSGGS-----SAEDLGHHAGYYRLP-------NTHD
+CPVL_HUMAN                          AGKIQKGRELSLVGPFPGL--------NMKSYAGFLTVN-------KTYN
+YUA6_CAEEL                          LLGFAYVCESALITNLPGA-----PISNFKQYSGYYNVG-------TKKN
+CBP1_HORVU                          SGGGGAAPQGAEVTGLPGF----DGALPSKHYAGYVTVD-------EGHG
+NF31_NAEFO                          RCVNGQTAQDHLVTQLPGL----SGNIGVKSYTGYLLAN-------ATRG
+YSS2_CAEEL                          YSFCLAAPATDKVNDLPGL----TFTPDFFHYSGYLRAW---------TD
+RISC_HUMAN                          PVPRWLLLLPLLLGLNAGAVID-WPTEEGKEVWDYVTVR---------KD
+
+1ac5_                               LEYFFWKFTNND-SNGNVDRPLIIWLNGGPGCSSMD-GALVESGPFRVNS
+1ysc_                               KHFFFWTFESRN---DPAKDPVILWLNGGPGCSSLT-GLFFELGPSSIGP
+1ivy_A                              KHLHYWFVESQK---DPENSPVVLWLNGGPGCSSLD-GLLTEHGPFLVQP
+CPS1_PENJA                          MNMWFWFFEARN---NPQQAPLAAWFNGGPGCSSMI-GLFQENGPCHFVN
+CBPX_ORYSA                          ARLFYFFFESRG--SKGEDDPVVIWLTGGPGCSSEL-ALFYENGPFHIAD
+CPVL_HUMAN                          SNLFFWFFPAQI---QPEDAPVVLWLQGGPGGSSMF-GLFVEHGPYVVTS
+YUA6_CAEEL                          HMLHYWFVESQS---NPSTDPVLLWLTGGPGCSGLS-ALLTEWGPWNVNT
+CBP1_HORVU                          RNLFYYVVESER---DPGKDPVVLWLNGGPGCSSFD-GFVYEHGPFNFES
+NF31_NAEFO                          RYLFYWFFESMR---NPSQDPLVMWTNGGPGCSSLG-GEASEHGLFLVNA
+YSS2_CAEEL                          KYLHYWLTESSR---APTQDPLVLWLNGGPGCSSLD-GLIEELGPFHVKD
+RISC_HUMAN                          AYMFWWLYYATNSCKNFSELPLVMWLQGGPGGSSTGFGNFEEIGPLDSD-
+
+1ac5_                               D------GKLYLNEGSWISKGDLLFIDQPTGTGFSVEQNKDEGKIDKNKF
+1ysc_                               D------LKPIGNPYSWNSNATVIFLDQPVNVGFSYS---------GSSG
+1ivy_A                              D-----GVTLEYNPYSWNLIANVLYLESPAGVGFSYS--------DDKFY
+CPS1_PENJA                          G-----DSTPSLNENSWNNYANMIYIDQPIGVGFSYG----------TDD
+CBPX_ORYSA                          ------NMSLVWNDFGWDQESNLIYVDQPTGTGFSYSS-------NPRDT
+CPVL_HUMAN                          ------NMTLRDRDFPWTTTLSMLYIDNPVGTGFSFTD-------DTHGY
+YUA6_CAEEL                          D-----GATLRTNPYSWNKNASILTLEAPAGVGYSYAT--------DNNI
+CBP1_HORVU                          GGSVKSLPKLHLNPYAWSKVSTMIYLDSPAGVGLSYSKN-------VSDY
+NF31_NAEFO                          D-----GATITRNPYSWNRVSNILYIEQPVGVGFSYSN------STDDYQ
+YSS2_CAEEL                          F-----GNSIYYNEYAWNKFANVLFLESPAGVGYSYST--------NFNL
+RISC_HUMAN                          ---------LKPRKTTWLQAASLLFVDNPVGTGFSYVN-------GSGAY
+
+1ac5_                               DEDLEDVTKHFMDFLENYFKIFPEDLT--RKIILSGESYAGQYIPFFANA
+1ysc_                               VSNTVAAGKDVYNFLELFFDQFPEYVNKGQDFHIAGESYAGHYIPVFASE
+1ivy_A                              ATNDTEVAQSNFEALQDFFRLFPEYKN--NKLFLTGESYAGIYIPTLAVL
+CPS1_PENJA                          VTSTVTAAPYVWNLLQAFYAQRPEYES--RDFAIFTESYGGHYGPEFASY
+CBPX_ORYSA                          RHDEAGVSNDLYAFLQAFFTEHPNFAK--NDFYITGESYAGHYIPAFASR
+CPVL_HUMAN                          AVNEDDVARDLYSALIQFFQIFPEYKN--NDFYVTGESYAGKYVPAIAHL
+YUA6_CAEEL                          ATGDDQTASENWEALVAFFNEFPQYKG--NDFYVTGESYGGIYVPTLVQT
+CBP1_HORVU                          ETGDLKTATDSHTFLLKWFQLYPEFLS--NPFYIAGESYAGVYVPTLSHE
+NF31_NAEFO                          NLNDVQAASDMNNALRDFLTRFPQFIG--RETYLAGESYGGVYVPTTAYN
+YSS2_CAEEL                          TVSDDEVSLHNYMALLDFLSKFPEYKG--RDFWITGESYAGVYIPTLAVR
+RISC_HUMAN                          AKDLAMVASDMMVLLKTFFSCHKEFQT--VPFYIFSESYGGKMAAGIGLE
+
+1ac5_                               ILNHNKFS---KIDGDTYDLKALLIGNGWIDPNTQSLSYLPFAMEK----
+1ysc_                               ILSHK---------DRNFNLTSVLIGNGLTDPLTQYNYYEPMACGEGGEP
+1ivy_A                              VMQDP-----------SMNLQGLAVGNGLSSYEQNDNSLVYFAYYH----
+CPS1_PENJA                          IEQQNAAIKAGSVTGQNVNIVALGVNNGWIDSTIQEKAYIDFSYNNS-YQ
+CBPX_ORYSA                          VYKGNKNS-----EGIHINLKGFAIGNGLTDPAIQYKAYTDYSLDM----
+CPVL_HUMAN                          IHSLNPV------REVKINLNGIAIGDGYSDPESIIGGYAEFLYQI----
+YUA6_CAEEL                          ILDRQ--------SQSHINIKGLAIGNGCVSANEGVDSLVNFLYHH----
+CBP1_HORVU                          VVKGIQGG-----AKPTINFKGYMVGNGVCDTIFDGNALVPFAHGM----
+NF31_NAEFO                          IVEGNGKG-----QQPYVNLVGILVGNGVTDAEADSNSIPPMMKYH----
+YSS2_CAEEL                          ILNDK---------KNFPNFKGVAIGNGALNFPNNYNTMVPFYYYH----
+RISC_HUMAN                          LYKAIQR------GTIKCNFAGVALGDSWISPVDSVLSWGPYLYSM----
+
+1ac5_                               KLIDESNPNFKHLTNAHENCQNLIN----SASTDEAA---HFSYQECENI
+1ysc_                               SVLP--SEECSAMEDSLERCLGLIE-SCYDSQSVWSC---VPATIYCNNA
+1ivy_A                              GLLG-----NRLWSSLQTHC-------CS----QNKCNFYDNKDLECVTN
+CPS1_PENJA                          QIIDSS-TRDSLLDAYNNQCLPALQ-QCSQSGSTSDC---TNADSVCYQN
+CBPX_ORYSA                          GLITKS--QFNRINKIVPTCELAIK-LCGTSG-TISC---LGAYVVCNLI
+CPVL_HUMAN                          GLLDEK--QKKYFQKQCHECIEHIRKQNWLEAFEILD---KLLDGDLTSD
+YUA6_CAEEL                          GVVD-----QAKWEHMKTSCCHNDTDAC-----PWHS---FSEFSACGEF
+CBP1_HORVU                          GLIS-----DEIYQQASTSCHGN------------YW---NATDGKCDTA
+NF31_NAEFO                          SLIS-----IKYYEEGYKACQGD-----------FYA---NQNLPACQKF
+YSS2_CAEEL                          ALVR-----DDLYNDIARNCCNNNIGTC-----DIYS---KFFDPNCRDK
+RISC_HUMAN                          SLLE-----DKGLAEVSKVAEQVLNAVN----KGLYR---EATELWGKAE
+
+1ac5_                               LNLLLSYTR---ESSQKGTADCLNMYNFNLKDS-----------------
+1ysc_                               QLAPYQRTG---RNVYDIRKDCEGG-------------------------
+1ivy_A                              LQEVARIVGNSGLNIYNLYAPCAGGVPSHFRYEKDTVVVQDLGNIFTRLP
+CPS1_PENJA                          IEGPISSSG--DFDVYDIREPSN---------------------------
+CBPX_ORYSA                          CSSIETIIG--KKNYYDIRKPCV---------------------------
+CPVL_HUMAN                          PSYFQNVTG--CSNYYNFL-RCT---------------------------
+YUA6_CAEEL                          VEATQQTAWNGGLNPYNMYADCISTSASFR--------------------
+CBP1_HORVU                          ISKIESLIS--GLNIYDILEPCYHSRSIKEVNLQNSKLPQSFKDLGTTNK
+NF31_NAEFO                          LTDSSNAMG--NINPYYIYDSCPWLGINLQQKLKTTQEMTFQVLDPKTQQ
+YSS2_CAEEL                          VINALDGTN--ELNMYNLYDVCYYNPTTNLKKAFIER-------------
+RISC_HUMAN                          MIIEQNTDG---VNFYNILTKSTPTSTMESS-------------------
+
+1ac5_                               --------------------------------YPSCGM-NWPKDISFVSK
+1ysc_                               ---------------------------------NLCYP-----TLQDIDD
+1ivy_A                              -------------LKRMWHQALLRSGDKVRMD-PPCTN------TTAAST
+CPS1_PENJA                          ----------------------------------DPYP------PKTYST
+CBPX_ORYSA                          --------------------------------GSLCYD------LSNMEK
+CPVL_HUMAN                          ----------------------------------EPED------QLYYVK
+YUA6_CAEEL                          -------------FGMEYERRFNKKYTPEVLGTVPCLD------ESPVTN
+CBP1_HORVU                          PFPVRTRMLGRAWPLRAPVKAGRVPSWQEVASGVPCMS------DEVATA
+NF31_NAEFO                          PVKIHPLFQMYKHGGWSKRVANERNFAPRFETDAPCVP------NQSIAK
+YSS2_CAEEL                          --------------QMRIAVGLPARKHNAATTVPLCAQ------TNNTHV
+RISC_HUMAN                          ------------------------LEFTQSHLVCLCQRHVRHLQRDALSQ
+
+1ac5_                               FFSTPGVIDSLHLDS--DKIDHWKECTN-SVGTKLS--NPISKPSIHLLP
+1ysc_                               YLNQDYVKEAVG-----AEVDHYESCNF-DINRNFLFAGDWMKPYHTAVT
+1ivy_A                              YLNNPYVRKALNIP---EQLPQWDMCNF-LVNLQYR---RLYRSMNSQYL
+CPS1_PENJA                          YLSDPTVVKAIGAR------TNYQECPNGPYNKFAS-TGDNPRSFLSTLS
+CBPX_ORYSA                          FLQLKSVRESLGVG-----DIQFVSCSPTVYQAMLL---DWMRNLEVGIP
+CPVL_HUMAN                          FLSLPEVRQAIHVG-----NQTFNDGT--IVEKYLR--EDTVQSVKPWLT
+YUA6_CAEEL                          YLNRQDVRKALGIP---SSLPAWSICSN-AISYGYK---RQYGDMTSRVL
+CBP1_HORVU                          WLDNAAVRSAIHAQS-VSAIGPWLLCTD-KLYFVHD------AGSMIAYH
+NF31_NAEFO                          YFRRLDVQQALGVRRKTADPNGWNICTG-IINYTQV-----YSTILPFYA
+YSS2_CAEEL                          YLNRADVRKSLHIP---SSLPAWEECSDQVGKNYVV----THFNVIPEFQ
+RISC_HUMAN                          LMNGP-IRKKLKIIP---EDQSWGGQATNVFVNMEE---DFMKPVISIVD
+
+1ac5_                               GLLES-GIEIVLFNGDKDLICNNKGVLDTIDNLKWGGIKGFSDDAVSFDW
+1ysc_                               DLLNQ-DLPILVYAGDKDFICNWLGNKAWTDVLPWKY-DEEFASQKVRNW
+1ivy_A                              KLLSSQKYQILLYNGDVDMACNFMGDEWFVDSLNQK------MEVQRRPW
+CPS1_PENJA                          SVVQS-GINVLVWAGDADWICNWLGNYEVANAVDFP-GNAQFSALDLAPY
+CBPX_ORYSA                          ELLEN-DIKVLIYAGEYDLICNWLGNSRWVNSMEWS-GKEAFVSSSEEPF
+CPVL_HUMAN                          EIMNN--YKVLIYNGQLDIIVAAALTEHSLMGMDWK-GSQEYKKAEKKVW
+YUA6_CAEEL                          NAVNNNNLKMMLYNGDVDLACNALMGQRFTDKLGLT------LSKKKTHF
+CBP1_HORVU                          KNLTSQGYRAIIFSGDHDMCVPFTGSEAWTKSLGYG------VVDSWRPW
+NF31_NAEFO                          KLLPH--IRILVYSGDTDMVVNGLGTQAAIDKLQLQ------ETSSWRTW
+YSS2_CAEEL                          TMIAA-GIKILVYNGDVDTACNSIMNQQFLTSLNLT--VLGEQEKVNEAW
+RISC_HUMAN                          ELLEA-GINVTVYNGQLDLIVDTMGQEAWVRKLKWP-ELPKFSQLKWKAL
+
+1ac5_                               IHKSKSTDDSEEFSGYVKYDR----NLTFVSVYNASHMVPFDKSLVSRGI
+1ysc_                               TAS-----ITDEVAGEVKSYK----HFTYLRVFNGGHMVPFDVPENALSM
+1ivy_A                              LVKY--GDSGEQIAGFVKEFS----HIAFLTIKGAGHMVPTDKPLAAFTM
+CPS1_PENJA                          TV-------NGVEKGQFKTVD----NFSFLKVYGAGHEVPYYQPDTALQA
+CBPX_ORYSA                          TV-------DGKEAGILKSYG----PLSFLKVHDAGHMVPMDQPKVALEM
+CPVL_HUMAN                          KIFKS----DSEVAGYIRQAG----DFHQVIIRGGGHILPYDQPLRAFDM
+YUA6_CAEEL                          TVK-------GQIGGYVTQYKGS--QVTFATVRGAGHMVPTDKPAVAEHI
+CBP1_HORVU                          ITN-------GQVSGYTEGYEH---GLTFATIKGAGHTVPEYKPQEAFAF
+NF31_NAEFO                          EFD---SALGTVVGGYIRKFEKSGKGLTFITVRGAGHMVPLVKPDSAFYM
+YSS2_CAEEL                          HYS---GQTGTAVAGFQTKFAG---NVDFLTVRGSGHFVPEDKPKESQQM
+RISC_HUMAN                          YSD----PKSLETSAFVKSYK----NLAFYWILKAGHMVPSDQGDMALKM
+
+1ac5_                               VDIYSNDVMIIDNNGKNVMITT-
+1ysc_                               VNEWIHGGFSL------------
+1ivy_A                              FSRFLNKQPY-------------
+CPS1_PENJA                          FKQIIQKKPISST----------
+CBPX_ORYSA                          LMRWTSGNLSNASSSFQRLDFTM
+CPVL_HUMAN                          INRFIYGKGWDPYVG--------
+YUA6_CAEEL                          IQSFLFNKAF-------------
+CBP1_HORVU                          YSRWLAGSKL-------------
+NF31_NAEFO                          FKNFIDGTCC-------------
+YSS2_CAEEL                          IFNFINNKDYSTPIQL-------
+RISC_HUMAN                          MRLVTQQE---------------
+
+

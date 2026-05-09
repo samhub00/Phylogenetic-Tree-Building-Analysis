@@ -1,0 +1,40 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+1csp                                --------------------------------------------------
+CSPD_HAEIN                          --------------------------------------------------
+GR2B_ARATH                          --------------------------------------------------
+CSPF_ECOLI                          --------------------------------------------------
+PIPI_HUMAN                          MTSESTSPPVVPPLHSPKSPVWPTFPFHREGSRVWERGGVPPRDLPSPLP
+
+1csp                                -----------------MLEGKVKWFNSEKGFGFIEV-EGQDDVFVHFSA
+CSPD_HAEIN                          -----------------MEIGIVKWFNNAKGFGFISAEGVDADIFAHYSV
+GR2B_ARATH                          ----MSGGGDVNMSGGDRRKGTVKWFDTQKGFGFITPSDGGDDLFVHQSS
+CSPF_ECOLI                          --------------MSRKMTGIVKTFDGKSGKGLITPSDGRIDVQLHVSA
+PIPI_HUMAN                          TKRTRTYSATARASAGPVFKGVCKQFSRSQGHGFITPENGSEDIFVHVSD
+
+1csp                                IQGEGFKTLEEGQAVSFEIVEGNR-GPQAANVTKEA--------------
+CSPD_HAEIN                          IEMDGYRSLKAGQKVQFEVLHSDK-GSHATKIIPIADTQE----------
+GR2B_ARATH                          IRSEGFRSLAAEESVEFDVEVDNS-GRPKAIEVSGPDGAPVQGNSGGGGS
+CSPF_ECOLI                          LNLRDAEEITTGLRVEFCRINGLR-GPSAANVYLS---------------
+PIPI_HUMAN                          IEGEYVPVEGDEVTYKMCPIPPKNQKFQAVEVVLTQLAPHTPHETWSGQV
+
+1csp                                --------------------------------------------------
+CSPD_HAEIN                          --------------------------------------------------
+GR2B_ARATH                          SGGRGGFGGGGGRGGGRGGGSYGGGYGGRGSGGRGGGGGDNSCFKCGEPG
+CSPF_ECOLI                          --------------------------------------------------
+PIPI_HUMAN                          VGS-----------------------------------------------
+
+1csp                                --------------------------------------------------
+CSPD_HAEIN                          --------------------------------------------------
+GR2B_ARATH                          HMARECSQGGGGYSGGGGGGRYGSGGGGGGGGGGLSCYSCGESGHFARDC
+CSPF_ECOLI                          --------------------------------------------------
+PIPI_HUMAN                          --------------------------------------------------
+
+1csp                                ------
+CSPD_HAEIN                          ------
+GR2B_ARATH                          TSGGAR
+CSPF_ECOLI                          ------
+PIPI_HUMAN                          ------
+
+

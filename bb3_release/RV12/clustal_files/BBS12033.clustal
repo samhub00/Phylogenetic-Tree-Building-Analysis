@@ -1,0 +1,76 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+1ot5_A                              ER-QWHLVN-PSFPGSDINVLDLWYNN-ITGAGVVAAIVDDGLDYENEDL
+1p8j_A                              PQ-QWYLSG---VTQRDLNVKEAWAQG-FTGHGIVVSILDDGIEKNHPDL
+1dbi_A                              QGYQY--------GPQNTYTDYAWDVT-KGSSGQEIAVIDTGVDYTHPDL
+ISP_PAEPO                           VE-MIQ-------------APAVWNQ--TRGRGVKVAVLDTGCDADHPDL
+TKSU_PYRKO                          IE-RVK-------------APSVWSITDGSVSVIQVAVLDTGVDYDHPDL
+PRCA_ANASP                          GK-TIKAHAN---------VEAAWKLS--DGTGTIIAIIDDGVDVDHEEF
+BPRX_BACNO                          ND-QWHYYS-----EYGVKADKVWDRG-ITGKGVTVAVVDTGIV-NHPDL
+
+1ot5_A                              KDNFCAEGSWDFNDNTNLPKPRL---------------------------
+1p8j_A                              AGNYDPGASFDVNDQDPDPQPR--------------------------YT
+1dbi_A                              DGK--VIKGYDFVDN--------------------------------DYD
+ISP_PAEPO                           KAR--IIGGRNFTDDDEGD----------------------------PEI
+TKSU_PYRKO                          AAN--IAWCVSTLRGKVSTK---------------------------LRD
+PRCA_ANASP                          RSSGKIVAPRDVTRKTN------------------------------FPT
+BPRX_BACNO                          NANVIPGSGYDFIQEAEIAQDGDGRDSNPADAGDWHSNWACGKYPDPRYE
+
+1ot5_A                              --SDDYHGTRCAGEIAAKKGNNFCGVGVGYNAKISGIRILS--GDITTED
+1p8j_A                              QMNDNRHGTRCAGEVAAVANNGVCGVGVAYNARIGGVRMLD--GEVTDAV
+1dbi_A                              PMDLNNHGTHVAGIAAAETNNATGIAGMAPNTRILAVRALDRNGSGTLSD
+ISP_PAEPO                           FKDYNGHGTHVAGTIAA-TENENGVVGVAPEADLLIIKVLNKQGSGQYDW
+TKSU_PYRKO                          CADQNGHGTHVIGTIAA-LNNDIGVVGVAPGVQIYSVRVLDARGSGSYSD
+PRCA_ANASP                          PGNRDNHGTACAGVACG--NGNFGASGVAPGAKLMPIRFVSA---LGSQD
+BPRX_BACNO                          KRNSSWHGSHVAGTIAAVTNNRIGVSGVAYDAKIVPVRVLGRCG-GYNSD
+
+1ot5_A                              EAASLIYGLD---------------------VNDIYSCSWGPADDGRHLQ
+1p8j_A                              EARSLGLNPN---------------------HIHIYSASWGPEDDGKTVD
+1dbi_A                              IADAIIYAADS--------------------GAEVINLSLGCDCHT----
+ISP_PAEPO                           IIQGIYYAIEQ--------------------KVDIISMSLGGPEDV----
+TKSU_PYRKO                          IAIGIEQAILGPDGVADKDGDGIIAGDPDDDAAEVISMSLGGPADD----
+PRCA_ANASP                          EADSFVWAAQN--------------------GADVISCSWGPPDGTWWDD
+BPRX_BACNO                          INEGMYWAAGGHIDGVPDNKH----------PAQVINMSLGGPGVCG---
+
+1ot5_A                              GPS--------DLVKKALVKGVTEG-RDSKGAIYVFASGNGGTRGD-NCN
+1p8j_A                              GPA--------RLAEEAFFRGVSQG-RGGLGSIFVWASGNGGREHD-SCN
+1dbi_A                              ----------------TTLENAVNY-AWNKGSVVVAAAGNN---------
+ISP_PAEPO                           ----------------PELHEAVKK-AVASQILVMCAAGNEGDGDDRTDE
+TKSU_PYRKO                          ----------------SYLYDMIIQ-AYNAGIVIVAASGNEG-----APS
+PRCA_ANASP                          KDPLHKQKVPLPDSTRLAMDYAINKGRNGKGCVILFAAGNGNE----SVD
+BPRX_BACNO                          ----------------STEQTLINR-ATQLGATIIVAAGNDN----IDAY
+
+1ot5_A                              YDGYTNSIYSITIGAIDHKDLHPPYSEGC----------SAVMAVTYSSG
+1p8j_A                              CDGYTNSIYTLSISSATQFGNVPWYSEAC----------SSTLATTYSSG
+1dbi_A                              -----SYENVIAVGAVDQYDRLASFSNYG----------TWVDVVAPGVD
+ISP_PAEPO                           LGYPGCYNEVISVGAINFDRHASEFSNSNNE----------VDLVAPGED
+TKSU_PYRKO                          PSYPAAYPEVIAVGAIDSNDNIASFSNRQ------------PEVSAPGVD
+PRCA_ANASP                          NDGYASYEKVIAVAACNDFGTRSAYSDFGQAVWCAFPSNNGNPSQTPGIW
+BPRX_BACNO                          GVTPASCDNILTVGATTSNGTRAYFSNHG----------SVVDISAPGAG
+
+1ot5_A                              SGE-------YIHSSDINGR------CSNSHGGTSAAAPLAAGVYTLLLE
+1p8j_A                              NQNEK-----QIVTTDLRQK------CTESHTGTSASAPLAAGIIALTLE
+1dbi_A                              -----------IVSTITGN-------RYAYMSGTSMASPHVAGLAALLAS
+ISP_PAEPO                           -----------ILSTVPGG-------KYATFSGTSMATPHVAGALALIKQ
+TKSU_PYRKO                          -----------ILSTYPDD-------SYETLMGTSMATPHVSGVVALIQA
+PRCA_ANASP                          TADRSGVVGYNSGSTNLGDQA---GNYTNSFGGTSSACPGAAGVAALILS
+BPRX_BACNO                          -----------ITSTVDSGARYPSGPSYSLMDGTSMATPHVAGVAALVIS
+
+1ot5_A                              ANPNLTWRDVQYLSILSAVG--LEKNADGDWRDSAMGKKYSHRYGFGKID
+1p8j_A                              ANKNLTWRDMQHLVVQTSKP--AHLNAD-DWATNGVGRKVSHSYGYGLLD
+1dbi_A                              QGRNNIEIRQAIEQTADKIS------------------GTGTYFKYGRIN
+ISP_PAEPO                           LANASFERDLTEPELYAQLIKR-----------TIPLGNSPKMEGNGLLY
+TKSU_PYRKO                          AYYQKYGKILPVGTFDDISKN-TVRGILHITADDLGPTGWDADYGYGVVR
+PRCA_ANASP                          RNPNLRWDEVRDIIKRSCDR-------IDPVGGNYNAEGRSPFYGYGRIN
+BPRX_BACNO                          AANSVNKEMTPAQVRDVLVR-----------TVSSFNGTPDRRIGAGIVD
+
+1ot5_A                              AHKLIEM
+1p8j_A                              AGAMVAL
+1dbi_A                              SYNAVTY
+ISP_PAEPO                           LTAVEEL
+TKSU_PYRKO                          AALAVQA
+PRCA_ANASP                          ALKAVEL
+BPRX_BACNO                          ADAAVNA
+
+
