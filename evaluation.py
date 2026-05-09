@@ -1,148 +1,123 @@
 import time
+import psutil
+import os
 import csv
-from Bio import Phylo
-from treeBuilder import upgma, nj
+import dendropy
+from dendropy.calculate import treecompare
+from treeBuilder import build_trees
+from Bio import AlignIO
 
+msa_file = r'alignments and sequences\cats.aln-clustalw'
 
-# Input dataset
-alignment_file = "wolf_and_pals.aln-phylip_interleaved"
-alignment_format = "phylip"
+#trees = build_trees(msa_file, model='blosum62', ml_model='JC', ml_random_seed=1)
 
+#FILE EVALUATION METRICS
 
-def time_algorithm(name, func, file, file_format):
+def get_msa_length(file, file_format='clustal'):
     """
-    Runs a tree-building algorithm and records how long it takes.
+    Get the length of the multiple sequence alignment (MSA) from a given file.
     """
-    start = time.time()
-    tree = func(file, file_format)
-    end = time.time()
 
-    runtime = end - start
-    print(f"{name} runtime: {runtime:.6f} seconds")
-
-    return tree, runtime
+    alignment = AlignIO.read(file, file_format)
+    return alignment.get_alignment_length()
 
 
-def print_branch_lengths(tree, label):
+#TREE EVALUATION METRICS MEASURE AND SAVE TO CSV
+
+def get_RF(tree1, tree2):
     """
-    Prints every branch length in a tree.
+    Calculate the Robinson-Foulds distance between two trees.
     """
-    print(f"\nBranch lengths for {label}:")
-    found = False
+    tns = dendropy.TaxonNamespace()
+    tree1 = dendropy.Tree.get(data=tree1.format('newick'), schema='newick', taxon_namespace=tns)
+    tree2 = dendropy.Tree.get(data=tree2.format('newick'), schema='newick', taxon_namespace=tns)
 
-    for clade in tree.find_clades():
-        if clade.branch_length is not None:
-            print(f"{clade.name}: {clade.branch_length}")
-            found = True
+    tree1.encode_bipartitions()
+    tree2.encode_bipartitions()
 
-    if not found:
-        print("No branch lengths found.")
+    return treecompare.symmetric_difference(tree1, tree2)
+
+#print(get_RF(trees[0], trees[3]))
 
 
-def count_taxa(tree):
+
+#PC MONITORING METRICS MEASURE AND SAVE TO CSV
+
+def monitor_performance(function, *args, **kwargs):
     """
-    Counts how many terminal taxa/species are in the tree.
+    Monitor the performance of a function by measuring its execution time cpu time and memory usage.
     """
-    return len(tree.get_terminals())
+    monitoring_results = {}
 
+    process=psutil.Process(os.getpid())
+    start_cpu_times = process.cpu_times().user + process.cpu_times().system
+    start_time = time.perf_counter()
 
-def total_branch_length(tree):
+    result = function(*args, **kwargs)
+    
+    end_time = time.perf_counter()
+    end_cpu_times = process.cpu_times().user + process.cpu_times().system
+
+    mem_info = process.memory_info()
+    peak_ram_mb = mem_info.peak_wset / (1024 * 1024)
+
+    monitoring_results['execution_time_seconds'] = end_time - start_time
+    monitoring_results['cpu_time_seconds'] = end_cpu_times - start_cpu_times
+    monitoring_results['peak_ram_mb'] = peak_ram_mb
+
+    return result, monitoring_results
+
+def save_performance_metrics(msa_file, metrics, output_path='msa_performance_metrics.csv'):
     """
-    Adds up all branch lengths in the tree.
+    Saves the computational performance metrics to a csv file. If the file has already been analyzed it will
+    append to the end. Requires the msa_file and takes the monitoring results from the monitor_performance 
+    function as a dictionary.
     """
-    total = 0
-
-    for clade in tree.find_clades():
-        if clade.branch_length is not None:
-            total += clade.branch_length
-
-    return total
-
-
-def save_results_csv(results, output_file="evaluation_results.csv"):
-    """
-    Saves evaluation results to a CSV file.
-    """
-    fieldnames = [
-        "algorithm",
-        "runtime_sec",
-        "num_taxa",
-        "total_branch_length",
-        "tree_file"
-    ]
-
-    with open(output_file, "w", newline="") as csvfile:
+    file_exists = os.path.isfile(output_path)
+    with open(output_path, mode='a', newline='') as csvfile:
+        fieldnames = ['msa_file','seq_len', 'execution_time_seconds', 'cpu_time_seconds', 'peak_ram_mb']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(results)
 
-    print(f"\nSaved evaluation results to {output_file}")
+        if not file_exists:
+            writer.writeheader()
 
-
-# Build trees and measure runtime
-upgma_tree, upgma_time = time_algorithm(
-    "UPGMA",
-    upgma,
-    alignment_file,
-    alignment_format
-)
-
-nj_tree, nj_time = time_algorithm(
-    "NJ",
-    nj,
-    alignment_file,
-    alignment_format
-)
+        row = {'msa_file': msa_file}
+        row['seq_len'] = get_msa_length(msa_file)
+        row.update(metrics)
+        writer.writerow(row)
 
 
-# Display trees in the terminal
-print("\nUPGMA Tree:")
-Phylo.draw_ascii(upgma_tree)
 
-print("\nNJ Tree:")
-Phylo.draw_ascii(nj_tree)
+trees, pc_perf = monitor_performance(
+    build_trees, 
+    msa_file, 
+    model='blosum62', 
+    ml_model='JC', 
+    ml_random_seed=1
+    )
+
+save_performance_metrics(msa_file, pc_perf)
+
+"""
+print("Performance Metrics:")
+print(f"Execution Time: {pc_perf['execution_time_seconds']:.2f} seconds")
+print(f"CPU Time: {pc_perf['cpu_time_seconds']:.2f} seconds")
+print(f"Peak RAM Usage: {pc_perf['peak_ram_mb']:.2f} MB")
+"""
 
 
-# Print branch lengths
-print_branch_lengths(upgma_tree, "UPGMA")
-print_branch_lengths(nj_tree, "NJ")
-
-
-# Save trees as Newick files
-Phylo.write(upgma_tree, "wolf_upgma_tree.nwk", "newick")
-Phylo.write(nj_tree, "wolf_nj_tree.nwk", "newick")
-
-print("\nSaved trees as wolf_upgma_tree.nwk and wolf_nj_tree.nwk")
-
-
-# Save evaluation metrics to CSV
-results = [
-    {
-        "algorithm": "UPGMA",
-        "runtime_sec": upgma_time,
-        "num_taxa": count_taxa(upgma_tree),
-        "total_branch_length": total_branch_length(upgma_tree),
-        "tree_file": "wolf_upgma_tree.nwk"
-    },
-    {
-        "algorithm": "NJ",
-        "runtime_sec": nj_time,
-        "num_taxa": count_taxa(nj_tree),
-        "total_branch_length": total_branch_length(nj_tree),
-        "tree_file": "wolf_nj_tree.nwk"
-    }
-]
-
-save_results_csv(results)
 
 """
 Evaluation metrics that we need:
     True trees from INDELible or Rose
     Parameters: Evolutionary models like Jukes-Cantor, general Time reversible
+        These are just parameters for the tree building algorithm
     Topological Accuracy: nRF distance which measures the distance between the inferred tree and true trees (where do we get the true tree?)
+        implemented - still need to figure out how to get true trees
     Branch Length Accuracy: Correlation coefficient between inferred branch lengths and true simulated branch lengths (which ones are simulate?)
     Support values: Evaluate the bootstrap percentages for the ML/NJ or posterior probabilities for BI to assess Node Reliability
     CPU usage? is there a way to track the computing done 
+        done - using psutil to track cpu time and memory usage
     """
 
 """
