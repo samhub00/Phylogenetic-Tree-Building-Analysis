@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 def file_convert(input_file, i_type, output_file, o_type):
     SeqIO.convert(input_file, i_type, output_file, o_type)
 
-
+#file_convert('BB20001.msf', 'msf', 'BB20001.clustal', 'clustal')
 
 #SH
 def get_dm(file, file_format="clustal", model="identity"):
@@ -90,7 +90,7 @@ def ml(file, model = 'JC', rs=None):
     """
     
     try:
-        aln = load_aligned_seqs(file, "clustal", moltype='dna')
+        aln = load_aligned_seqs(file, "clustal", moltype='protein') #chagned from dna to protein for test
         ml_tree = build_tree(aln, model, rand_seed=rs)
         return ml_tree
     except Exception as e:
@@ -135,39 +135,54 @@ def build_trees(
         file,
         model="identity",
         ml_model='JC',
-        ml_random_seed=None
+        ml_random_seed=None,
+        desired_trees=["UPGMA", "NJ", "ML", "MP"]
         ):
     """
-    file: must be in clustal format, and should be a multiple sequence alignment file of DNA sequences.
+    Parameters
 
-    model: is the model used for distance matrix calculation, default is identity, 
-        but can be any model supported by Bio.Phylo.TreeConstruction.DistanceCalculator
+        file: str
+        Path to a Multiple Sequence Alignment (MSA) file. Must be in Clustal format and contain DNA sequences.
 
-    ml_model: is the model used for maximum likelihood tree building, default is JC,
-        but can be any model supported by IQ-Tree
+        model: str (default: "identity")
+        The model used for distance matrix calculation. Supports any model compatible with Bio.Phylo.TreeConstruction.DistanceCalculator.
 
-    ml_random_seed: is the random seed used for maximum likelihood tree building, default is None,
-        but can be any integer value. Caution: 0 is a specific random seed. None is equivalent to
-        no random seed being specified.
+        ml_model: str (default: "JC")
+        The model used for Maximum Likelihood tree building. Supports any model supported by IQ-TREE.
 
-    Builds trees using UPGMA, NJ, ML, and MP algorithms from a given alignment file. 
+        ml_random_seed: int (default: None)
+        The random seed for ML tree building.
 
-    Returns a list of trees in the order of UPGMA, NJ, ML, MP.
+            0 is treated as a specific seed.
+
+            None is equivalent to no random seed being specified.
+
+        desired_trees: list (default: ["UPGMA", "NJ", "ML", "MP"])
+        A list of tree-building methods to execute. Can be any combination of the four supported algorithms.
+
+    Returns list of trees in the order of UPGMA, NJ, ML, MP (if specified in desired_trees)
     """
+
+
     get_dm(file, file_format='clustal', model=model)
 
     trees = []
 
     #build trees using each method and add to list
-    upgma_tree = upgma(get_dm(file, file_format='clustal', model=model))
-    trees.append(upgma_tree)
-    nj_tree = nj(get_dm(file, file_format='clustal', model=model))
-    trees.append(nj_tree)
-    ml_tree = Bio.Phylo.read(io.StringIO(str(ml(file, model=ml_model, rs=ml_random_seed))), 'newick')
-    trees.append(ml_tree)
-    mp_tree = mp(file, nj_tree, a_format='clustal')
-    trees.append(mp_tree)
-
+    if "UPGMA" in desired_trees:
+        upgma_tree = upgma(get_dm(file, file_format='clustal', model=model))
+        trees.append(upgma_tree)
+    if "NJ" in desired_trees:
+        nj_tree = nj(get_dm(file, file_format='clustal', model=model))
+        trees.append(nj_tree)
+    if "ML" in desired_trees:
+        ml_tree = Bio.Phylo.read(io.StringIO(str(ml(file, model=ml_model, rs=ml_random_seed))), 'newick')
+        trees.append(ml_tree)
+    if "MP" in desired_trees:
+        mp_tree = mp(file, nj_tree, a_format='clustal')
+        trees.append(mp_tree)
+    else:
+        print("No valid tree building method specified, please choose from UPGMA, NJ, ML, MP")
     #return list of trees in the order of UPGMA, NJ, ML, MP
     return trees
 
@@ -178,4 +193,4 @@ TODO:
     export tree lengths for evaluation
 """
 
-visualize(build_trees(r'alignments and sequences\cats.aln-clustalw', model='blosum62', ml_model='JC', ml_random_seed=1))
+visualize(build_trees(r'BB20001.clustal', model='blosum62', ml_model='Blosum62', ml_random_seed=1))
