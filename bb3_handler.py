@@ -50,6 +50,8 @@ def parse_bio_xml(file_path):
             results.append(entry)
     return results
 
+#process folders to extract data from all XML files and save to a CSV
+
 def process_folder(folder_path, output_csv):
     """Processes all XMLs and saves to a hybrid CSV."""
     path = Path(folder_path)
@@ -70,10 +72,3 @@ def process_folder(folder_path, output_csv):
             
             # 3. Write row: index by filename (minus extension)
             writer.writerow([xml_file.stem, json_blob])
-
-process_folder(r'C:\Users\Sam\Phylogenetic-Tree-Building-Analysis\bb3_release\RV11', r'C:\Users\Sam\Phylogenetic-Tree-Building-Analysis\bb3_release\bioinformatics_master_list.csv')
-process_folder(r'C:\Users\Sam\Phylogenetic-Tree-Building-Analysis\bb3_release\RV12', r'C:\Users\Sam\Phylogenetic-Tree-Building-Analysis\bb3_release\bioinformatics_master_list.csv')
-process_folder(r'C:\Users\Sam\Phylogenetic-Tree-Building-Analysis\bb3_release\RV20', r'C:\Users\Sam\Phylogenetic-Tree-Building-Analysis\bb3_release\bioinformatics_master_list.csv')
-process_folder(r'C:\Users\Sam\Phylogenetic-Tree-Building-Analysis\bb3_release\RV30', r'C:\Users\Sam\Phylogenetic-Tree-Building-Analysis\bb3_release\bioinformatics_master_list.csv')
-process_folder(r'C:\Users\Sam\Phylogenetic-Tree-Building-Analysis\bb3_release\RV40', r'C:\Users\Sam\Phylogenetic-Tree-Building-Analysis\bb3_release\bioinformatics_master_list.csv')
-process_folder(r'C:\Users\Sam\Phylogenetic-Tree-Building-Analysis\bb3_release\RV50', r'C:\Users\Sam\Phylogenetic-Tree-Building-Analysis\bb3_release\bioinformatics_master_list.csv')
