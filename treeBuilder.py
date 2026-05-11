@@ -74,7 +74,7 @@ def mp(file, starter_tree, a_format='clustal'):
 
     return pars_tree
 
-def ml(file, model = 'JC', rs=None):
+def ml(file, model = 'Blosum62', rs=None):
     """
     Maximum Likelihood Tree building algorithm. Requires alignment file in phylip format. 
     will use piqtree library for tree building. 
@@ -88,7 +88,7 @@ def ml(file, model = 'JC', rs=None):
 
     Troubleshooting: ensure that your alignment file has sequences of equal lengths, and that sequences are complete
     """
-    
+
     try:
         aln = load_aligned_seqs(file, "clustal", moltype='protein') #chagned from dna to protein for test
         ml_tree = build_tree(aln, model, rand_seed=rs)
@@ -181,8 +181,8 @@ def build_trees(
     if "MP" in desired_trees:
         mp_tree = mp(file, nj_tree, a_format='clustal')
         trees.append(mp_tree)
-    else:
-        print("No valid tree building method specified, please choose from UPGMA, NJ, ML, MP")
+    if not trees:
+        print("build_trees() error. No valid tree building method specified, please choose from UPGMA, NJ, ML, MP")
     #return list of trees in the order of UPGMA, NJ, ML, MP
     return trees
 
@@ -193,4 +193,4 @@ TODO:
     export tree lengths for evaluation
 """
 
-visualize(build_trees(r'BB20001.clustal', model='blosum62', ml_model='Blosum62', ml_random_seed=1))
+#visualize(build_trees(r'bb3_release\RV50\clustal_files\BBS50006.clustal', model='blosum62', ml_model='Blosum62', ml_random_seed=1))
