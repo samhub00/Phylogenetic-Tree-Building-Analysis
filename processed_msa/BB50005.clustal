@@ -1,0 +1,244 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+1lcf_                               -------------------GR-----RRSVQWCAVSNPEATKCFQWQRNM
+1aov_                               ------------------APP-----KTTVRWCTISSAEEKKCNSLKDHM
+1jnf_A                              --------------------------EKTVRWCAVNDHEASKCANFRDSM
+TRFE_XENLA                          MDFSLRVALCLSMLALCLAIQK----EKQVRWCVKSNSELKKCKDLVDTC
+SAX_RANCA                           MAPTFQTALFFTIISLSFAAPN----AKQVRWCAISDLEQKKCNDLVGSC
+TRF1_SALSA                          MKLLLLSAL-LGCLATAYAAPA----EGIVKWCVKSEQELRKCHDLAAKV
+TRFE_ORYLA                          MKP-LLLLTLLGCLAAALAVP-----AQKVKWCVKSDQEFRKCSDLAAAS
+TRFE_GADMO                          --------------------------------------------------
+TRFE_PAROL                          MKPLLLLPLLGCLATIASCID-------TVKWCVTSTKENLKCTALAAAA
+TRFM_HUMAN                          MRGPSGALWLLLALRTVLGG-------MEVRWCATSDPEQHKCGNMSEAF
+TRF_BLADI                           -MLLCLTLLFSASAVLAMPTPEGSPHHEIYKVCVP-EGALESCHRMSQES
+
+1lcf_                               RKV---RGPPVSCLKRDSPIQCIQAIAENRADAVTLDGGFIYEAGLAPYK
+1aov_                               QQ----ERVTLSCVQKATYLDCIKAISNNEADAISLDGGQVFEAGLAPYK
+1jnf_A                              KKVLPEDGPRIICVKKASYLDCIKAIAAHEADAVTLDAGLVHEAGLTPNN
+TRFE_XENLA                          KNKE----IKLSCVEKSNTDECSTAIQEDHADAICVDGGDVYKGSLQPYN
+SAX_RANCA                           NVPD----ITLVCVLRSSTEDCMTAIKDGQADAMFLDSGEVYEASKDPYN
+TRF1_SALSA                          AE--------FSCVRKDGSFECIQAIKGGEADAITLDGGDIYTAGLTNYG
+TRFE_ORYLA                          PA--------FSCVKKESTLDCIIAIKAGEADAITVDGGDVYTAGLNNYD
+TRFE_GADMO                          ------------GIKEADATECILAIKAGEADAITLDGGEIYTAGQHPYD
+TRFE_PAROL                          PV--------FSCVARASITDCLTAIKAGEADAITLDGGEIYTAGLDEYK
+TRFM_HUMAN                          REAG--IQPSLLCVRGTSADHCVQLIAAQEADAITLDGGAIYEAG-KEHG
+TRF_BLADI                           D-------LHMTCVAARDRIECLDKIKHREADFAPVDPEDMYVAA-KIPQ
+
+1lcf_                               LRPVAAEVYGTERQPR----------------------------------
+1aov_                               LKPIAAEVYERSGGST----------------------------------
+1jnf_A                              LKPVVAEFYGSKENPK----------------------------------
+TRFE_XENLA                          LKPIMAENYGSHTETD----------------------------------
+SAX_RANCA                           LKPIIAEPYSSNRDLQKCLKERQQALAKKMIGHYIPQCDEKGNYQPQQCH
+TRF1_SALSA                          LQPIIAEDYGEDSD------------------------------------
+TRFE_ORYLA                          LHPIIAEDYGTSSE------------------------------------
+TRFE_GADMO                          LQPIISEKYGSGS-------------------------------------
+TRFE_PAROL                          LHPIIAEQYGTSTD------------------------------------
+TRFM_HUMAN                          LKPVVGEVYDQEVG------------------------------------
+TRF_BLADI                           QDFIIFKEIRTKEEPDEE--------------------------------
+
+1lcf_                               --------------------------------------------------
+1aov_                               --------------------------------------------------
+1jnf_A                              --------------------------------------------------
+TRFE_XENLA                          --------------------------------------------------
+SAX_RANCA                           GSTGHCWCVNAMGEKISGTNTPPGQTRATCERHELPKCLKERQVALGGDE
+TRF1_SALSA                          --------------------------------------------------
+TRFE_ORYLA                          --------------------------------------------------
+TRFE_GADMO                          --------------------------------------------------
+TRFE_PAROL                          --------------------------------------------------
+TRFM_HUMAN                          --------------------------------------------------
+TRF_BLADI                           --------------------------------------------------
+
+1lcf_                               --------------------------------------------------
+1aov_                               --------------------------------------------------
+1jnf_A                              --------------------------------------------------
+TRFE_XENLA                          --------------------------------------------------
+SAX_RANCA                           KVLGRFVPQCDEKGNYEPQQFHGSTGYSWCVNAIGEEIAGTKTPPGKIPA
+TRF1_SALSA                          --------------------------------------------------
+TRFE_ORYLA                          --------------------------------------------------
+TRFE_GADMO                          --------------------------------------------------
+TRFE_PAROL                          --------------------------------------------------
+TRFM_HUMAN                          --------------------------------------------------
+TRF_BLADI                           --------------------------------------------------
+
+1lcf_                               ---------THYYAVAVVKKGGSFQ-LNELQGLKSCHTGLRRTAGWNVPI
+1aov_                               ---------TSYYAVAVVKKGTDFM-IKDLRGKTSCHTGLGRSAGWNIPI
+1jnf_A                              ---------TFYYAVALVKKGSNFQ-LNELQGKKSCHTGLGRSAGWNIPI
+TRFE_XENLA                          ---------TCYYAVAVVKKSSKFT-FDELKDKKSCHTGIGKTAGWNIII
+SAX_RANCA                           TCQKHDLVTTCHYAVAMVKKSSAFQ-FNQLKGKRSCHSGVSKTDGWKALV
+TRF1_SALSA                          ---------TCYYAVAVAKKGTAFG-FKTLRGKKSCHTGLGKSAGWNIPI
+TRFE_ORYLA                          ---------TCYYAVAVAKKGTTFG-IRDLRGKKSCHTGLGKSAGWNIPI
+TRFE_GADMO                          ---------SCYYAVAVVKKDTGFS-FKQLRGKKSCHTGIGKTAGWNIPI
+TRFE_PAROL                          ---------TCYYAVAVAKKNTGFG-LHQLMGKKSCHTGVGKSAGWNIPI
+TRFM_HUMAN                          ---------TSYYAVAVVRRSSHVT-IDTLKGVKSCHTGINRTVGWNVPV
+TRF_BLADI                           ---------FRYEAVCVIHKDLDITSIHGLQGLKSCHTGVGRNVGYKIPI
+
+1lcf_                               GTLRPFLN------WTGP-PEPIEAAVARFFSASCVPGADKG--------
+1aov_                               GTLIHREDI----EWEGIESGISEQAVAKFFSASCVPGATIE--------
+1jnf_A                              GLLLCDLP--------EP-RKPLEKAVASFFSGSCVPCADGA--------
+TRFE_XENLA                          GLLLERKLL----KWAGPDSETWRNAVSKFFKASCVPGA-----------
+SAX_RANCA                           TVLVEKKLL----SWDGPAKESIQRAMSKFFSVSCIPGATQT--------
+TRF1_SALSA                          GTLVTESQI----RWAGIEDRPVESAVSDFFNASCAPGATMGS-------
+TRFE_ORYLA                          GTLVSMDII----QWAGVEDKPVEEEVSTFFQASCVPGATRGS-------
+TRFE_GADMO                          GTLLTTGQL----VWSGQEDLPVE-SVSTFFSKSCVPGAGGLV-------
+TRFE_PAROL                          GTLLSMDFI----KWKGSDDKKLEEVVGEFFHSSCAPGATDSA-------
+TRFM_HUMAN                          GYLVESGRL----SVMG---CDVLKAVSDYFGGSCVPGAGETSYSE----
+TRF_BLADI                           TKLRHMGVLGPLNNSDLTPRENELHALSHLFSEACLVGKWAPDPAQNQAL
+
+1lcf_                               --QFPNLCRLCAG--TGENKCAFS-SQEPYFSYSGAFKCLKDGAGDVAFI
+1aov_                               ----QKLCRQCKG--DAKTKCL---RNGPYSGYSGAFQCLKDGKGDVAFV
+1jnf_A                              --DFPQLCQLCPG-------CGCS-SVQPYFGYSGAFKCLKDGLGDVAFV
+TRFE_XENLA                          --KEPKLSQLCAG--IKEHKCSRS-NNEPYYNYAGAFKCLQDDQGDVAFV
+SAX_RANCA                           -----NLCKQCKG--EEGKNCKNS-HDEPYYGNYGAFRCLKEDMGDVAFL
+TRF1_SALSA                          -----KLCQLCKG------DCSRS-HKEPYYDYAGAFQCLKDGAGDVAFI
+TRFE_ORYLA                          -----KLCELCKG------DCSRS-QKEPYYDYNGAFNCLAEGAGDVAFV
+TRFE_GADMO                          ---GGKLCTLCPS------DCSKS-ATNPYFGYAGAFKCLKDDAGDVAFI
+TRFE_PAROL                          -----NLCKLCIG------DCSKSSETEPYYNYHGAFQCLKDGKGDVAFV
+TRFM_HUMAN                          -----SLCRLCRGDSSGEGVCDKS-PLERYYDYSGAFRCLAEGAGDVAFV
+TRF_BLADI                           KAKYPNLCALCEH----PEICDYP---DKYSGYDGALRCLAEHGGQVAWT
+
+1lcf_                               RESTVFEDLS----------DEAERDEYELLCPDNTRKPVDKFKDCHLAR
+1aov_                               KHTTVQENAP------------EEKDEYELLCLDGSRQPVDSYKTCNWAR
+1jnf_A                              KQETIFENLP----------SKDERDQYELLCLDNTRKPVDEYEQCHLAR
+TRFE_XENLA                          KQSTVPEEFH---------------KDYELLCPDNTRKSIKEYKNCNLAK
+SAX_RANCA                           RSTALSDEHS---------------EVYELLCPDNTRKPLNKYKECNLGT
+TRF1_SALSA                          KPLAVPAA---------------EKASYELLCKDGTRASIDSYKTCHLAR
+TRFE_ORYLA                          KHLTVPDQ---------------EKSKYELLCRDNTRAPIDDYKKCNLAR
+TRFE_GADMO                          NHLTVPAS---------------EKANYELLCLDGTRAPIDSYKTCNLAR
+TRFE_PAROL                          KHLTVPEE---------------EKNDYELLCKDNTRKPIDQFENCDLAK
+TRFM_HUMAN                          KHSTVLENTDGKTLP--SWGQALLSQDFELLCRDGSRADVTEWRQCHLAR
+TRF_BLADI                           KVYYVKKHFGMAIGAGEAVPTGQNPDDYAYLCPDATKKPITG-KPCIWAA
+
+1lcf_                               VPSHAVVARSV-NGKEDAIWNLLRQAQEKFGKDKSPKFQLFGSPSG----
+1aov_                               VAAHAVVARDD-S-KIDDIWSFLGMQAYSLGVDTTSDFHLFGPPGKKDPV
+1jnf_A                              VPSHAVVARSV-DGKEDLIWELLNQAQEHFGKDKSGDFQLFSSPHG----
+TRFE_XENLA                          VPAHAVLTRGR-DDKSKDIIEFLQEAQK------TQECKLFSSPVWG---
+SAX_RANCA                           VPAGTVVTRKI-SDKTEDINNFLMEAQK-------RQCKLFSSAHG----
+TRF1_SALSA                          VPAHAVVSRKD-PELANRIYNKLVAVKD---------FNLFSSDGYAA--
+TRFE_ORYLA                          VPAHAIVTHKD-PQLAELIWTSLNSVQN---------FNLFSSEAYAPS-
+TRFE_GADMO                          VPAHAVVSRVD-PELAERIFTALTTVTG---------FSFFSSAGFGA--
+TRFE_PAROL                          VPSHAVVTRKDNEELAQFIWQSLSSVKN---------FNLFSSTPYGG--
+TRFM_HUMAN                          VPAHAVVVRAD--TDGGLIFRLLNEGQRLFS-HEGSSFQMFSSEAYGQ--
+TRF_BLADI                           RPWQGYMANHD-LDNDIADLRAKISL-----------ADTIGETEN----
+
+1lcf_                               QKDLLFKDSAIGFSRVPPRIDSGLYLGSGYFTAIQNLRKS--EEEVAARR
+1aov_                               LKDLLFKDSAIMLKRVPELMDSQLYLGFEYYSAIQSLRKD--QLTVGPRE
+1jnf_A                              -KNLLFKDSAYGFFKVPPRMDANLYLGYEYVTAVRNLREGICPDPLQDEC
+TRFE_XENLA                          -RDLIFKDSAVSLIPLPSSMDSFLFLGADYFQCIQALKEGV-KEDDSAAQ
+SAX_RANCA                           -KDLMFDDSTLQLALLSSEVDAFLYLGVKLFHAMKALTGD----AHLPSK
+TRF1_SALSA                          -KNLMFKDSAQKLVQLPTTTDSFLYLGAEYMSTIRSLKKS---QATGASS
+TRFE_ORYLA                          -KNLMFKDSTQRLVKLPQNTDSFLYLGAQYMSIVRSLKKE---QSVGTNS
+TRFE_GADMO                          -ANLMFKDTTQSLVRLPDGSNSFLYLGAKYMASIQSLKKE----SDQPIT
+TRFE_PAROL                          -KNLMFKDSTTTLVQLPLNVDHTMYLGPHYLESVKALKIV---NIPSTTS
+TRFM_HUMAN                          -KDLLFKDSTSELVPIATQT-YEAWLGHEYLHAMKGLLCD-----PNRLP
+TRF_BLADI                           -ADWLSKVLDLNNKTIPIDN-QGPYSPENYLNKANYTDVI--ERDTGAPH
+
+1lcf_                               ARVVWCAVGEQELRKCNQWSGLS-----EGSVTCSSASTTEDCIALVLKG
+1aov_                               NKIQWCAVGKDEKSKCDRWSVVS-----NGEVECTILDDNKDCIVKITKG
+1jnf_A                              KAVKWCALGHHERLKCDEWSVTS-----GGLIECESAETPEDCIAKIMNG
+TRFE_XENLA                          VKVRWCTQSKAEKTKCDDWTTIS-----GGAIECTEASTAEECIVQILKG
+SAX_RANCA                           NKVRWCTINKLEKMKCDDWSAVS-----GGAIACTEASCPKGCVKQILKG
+TRF1_SALSA                          RAIKWCAVGHAEKGKCDTWTINSFAD-GESKISCQDAPTVEECIKKIMRK
+TRFE_ORYLA                          NAIKWCAVGHAETAKCDTWSINSVTD-DTAAIECQNAPSVEECLKKIMRK
+TRFE_GADMO                          PAIKWCAVGHAEKKKCDSWSSFSVSD-GVKSVACQISLTVEGCFQRIMRQ
+TRFE_PAROL                          DAMKWCAVGRSESDKCDSWSVASLVQ-DGTTIDCIKGNTVDDCLKKIMHK
+TRFM_HUMAN                          PYLRWCVLSTPEIQKCGDMAVAFRRQRLKPEIQCVSAKSPQHCMERIQAE
+TRF_BLADI                           RPVRFCVTSDAELEKCRVLKRAAYSRDIRPAFDCVREAGLHECLRTVRDD
+
+1lcf_                               EADAMSLDGGYVYTAG-KCGLVPVLAENYKSQQSSDPDPNCVDRP-----
+1aov_                               EADAISLDGGFVYTAG-VCGLVPVVGESYED------ETQCSKDE---EQ
+1jnf_A                              EADAMSLDGGYVYIAG-QCGLVPVLAENYES-------TDCKKAP-----
+TRFE_XENLA                          DADAVTLDGGYMYTAG-LCGLVPVMGEYYDQDDL----TPCQRSCSQA--
+SAX_RANCA                           EADAVKLEVQYMYEAL-MCGLLPAVEEYHNKDDF----GPCKTPGSPYTD
+TRF1_SALSA                          EADAIAVDGGEVYTAG-KCGLVPVMVEQYDA-------DLCSAPG----E
+TRFE_ORYLA                          EADAMAVDGGEVYTAG-KCGLVPAMVEQYDA-------ELCSSSG---GQ
+TRFE_GADMO                          EADAMSVDGGQVYTAG-KCQLIPAMVEQYNQ-------SLCSSAG---TP
+TRFE_PAROL                          EADAMAVDGGQVYTAG-KCGLVPAMVEQYDQG-------QCSAPG----A
+TRFM_HUMAN                          QVDAVTLSGEDIYTAGKKYGLVPAAGEHYAPEDS----------------
+TRF_BLADI                           GADVITLDGGEVFVAQRQYNLKPIVAEQYGEHG-----------------
+
+1lcf_                               VEGYLAVAVVRR-SDTSLTWNSVKGKKSCHTAVDRTAGWNIPMGLLFNQT
+1aov_                               PAYYFAVAVVK--KSSAITWNNLQGKKSCHTAVGRTAGWNIPMGLIHNKT
+1jnf_A                              EEGYLSVAVVKK-SNPDINWNNLEGKKSCHTAVDRTAGWNIPMGLLYNRI
+TRFE_XENLA                          KGVYYAVAIVKK--GTQVSWSNLRGVKTCHTAVGRTAGWNIPVGLITSET
+SAX_RANCA                           FGTLRAVALVKK-SNKDINWNNIKGKKSCHTGVGDIAGWVIPVSLIRRQN
+TRF1_SALSA                          ASSYYAVAVAKK--GSGLTWKTLKGKRSCHTGLGRTAGWNIPMGLIHQET
+TRFE_ORYLA                          ASSYYAVAVVKK--DSGVTWENLKGKKSCHTGIGRTAGWNIPMGRIYDQT
+TRFE_GADMO                          QATYFAVAVVKK--GSGVTWDNLRGKRSCHTGLGRTAGWNIPMGLVHSIH
+TRFE_PAROL                          ARLYYAVAVIKK--GSGVTWENLRNKRSCHTGIGRNAGWNIPMGLIYEQT
+TRFM_HUMAN                          SNSYYVVAVVRRDSSHAFTLDELRGKRSCHAGFGSPAGWDVPVGALIQRG
+TRF_BLADI                           -SLYYAVAVVRK-DSTYQSIEDLRGAKSCHTGYGRNAGWNVPLYTLLSKE
+
+1lcf_                               G----SC----KFDEYFS-QSCAPGSDPR---------SNLCALCIGDEQ
+1aov_                               G----SC----DFDDYFS-EGCAPGSPPN---------SRLCKLCQGSGE
+1jnf_A                              N----HC----RFDEFFR-QGCAPGSQKN---------SSLCELCVGPSV
+TRFE_XENLA                          A----NC----DFASYVG-ESCAPGSDVK---------SNLCALCIGDPE
+SAX_RANCA                           D----NS----DIDSFFG-ESCAPGSDTK---------SNLCKLCIGDPK
+TRF1_SALSA                          N----DC----DFTKYFS-KGCAPGSEVG---------SPFCAQCKGSGK
+TRFE_ORYLA                          K----DC----DFTKFFP-SGCAPEPKP----------ALHCALCVKAAA
+TRFE_GADMO                          G----SC----DFGGFFP-SGCAPGSEPS---------STFCRQCAGSGS
+TRFE_PAROL                          K----NC----NFSAFFS-SSCAPGADPS---------SQLCAQCAGNAE
+TRFM_HUMAN                          FIRPKDCDVLTAVSEFFN-ASCVPVNNPKNY------PSSLCALCVGDEQ
+TRF_BLADI                           LISKNSCPYSSALSSYFSGGSCVPGAQLPENNPANQNPDSLCSICAGNLD
+
+1lcf_                               -----GENKCVPNSNERYYGYTGAFRCLAENAGDVAFVKDVTVLQNTDGN
+1aov_                               N----LLEKCVASSHEKYYGYTGALRCLVE-QGDVAFIKHSTVGENVSGS
+1jnf_A                              ---------CAPNNREGYYGYTGAFRCLVE-KGDVAFVKSQTVLQNTGGR
+TRFE_XENLA                          KLS-EREKKCSPSASEAYYGYSGAFRCLVE-KGQVGFAKHTTVFENTDGK
+SAX_RANCA                           NS--AANTKCSLSDKEAYYGNQGAFRCLVE-KGDVAFVPHTVVFENTDGK
+TRF1_SALSA                          AVG--DEYRCKARSEEQYYGYTGAFRCLVEDAGDVAFIKHTIVPESTDGN
+TRFE_ORYLA                          KLS-GDEAKCKARPEEQYYGYAGAFRCLAEGAGDVAFIKHTIVGENTDGN
+TRFE_GADMO                          GV--EDGSKCSASSVEKYYGYAGAFRCLVDGAGDVAFIKHTIVADNSDGQ
+TRFE_PAROL                          S-----INKCKASNEERYYAYAGAFRCLAEGKGDVAFVKHSIVKENTDGQ
+TRFM_HUMAN                          -----GRNKCVGNSQERYYGYRGAFRCLVENAGDVAFVRHTTVFDNTNGH
+TRF_BLADI                           APNNDPAWKCSASNDESFFGYSGAFRCLASGEGQVAFVKHTTVPENTDGH
+
+1lcf_                               NNEAWAKDLKLADFALLCL-DGKRKPVTEARSCHLAMAPNHAVVSRMDK-
+1aov_                               NKDDWAKGLTRDDFELLCT-NGKRAKTMDYKTCHLAKVPTHAVVARPEK-
+1jnf_A                              NSEPWAKDLKEEDFELLCL-DGTRKPVSEAHNCHLAKAPNHAVVSRKDK-
+TRFE_XENLA                          NPAGWAKDLKSEDFELLCP-DGSRAPVTDYKRCNLAEVPAHAVVTLPDK-
+SAX_RANCA                           NPAVWAKNLKSEDFELLCL-DGSRAPVSNYKSCKLSGIPPPAIVTREES-
+TRF1_SALSA                          GPD-WAKDLKSSDFELLCQ-DGTTQPVTKFSECHLAKVPAHAVITRPET-
+TRFE_ORYLA                          GPD-WARSLKSDDYQLICP-GKGPVPISEYASCNLAVVPAHAVVTRPES-
+TRFE_GADMO                          GPA-WATALKSSDYQLICPGGVGRAEISDFASCNLAAVPSHAVVTRQDI-
+TRFE_PAROL                          GPE-WAKAFLSNDYELICP-SKGPVSVENFMSCNLAKVNAHAVVTRPEI-
+TRFM_HUMAN                          NSEPWAAELRSEDYELLCP-NGARAEVSQFAACNLAQIPPHAVMVRPDTN
+TRF_BLADI                           NQAAWTAGLRSEDFELLCA-DGGRASINEYSRCHLAEVPPHMVVTSNDK-
+
+1lcf_                               VERLKQVLLHQQAKFGRNGSDCPDKFCLFQSET---KNLLFNDNTECLAR
+1aov_                               ANKIRELLEGQEKLFGLHGTE-KERFMMFQSQT---KDLLFKALTKCLVK
+1jnf_A                              AACVKQKLLDLQVEFGNTVADCSSKFCMFHSKT---KDLLFRDDTKCLVD
+TRFE_XENLA                          REQVAKIVVNQQSLYGRKGFQ-KDIFQMFQSTGG--KDLLFKDSTQCLLE
+SAX_RANCA                           ISDVVRIVANQQSLYGRKGFE-KDMFQLFSSNKG--NNLLFNDNTQCLIT
+TRF1_SALSA                          RGDVVSILLELQAKFGSSGSD--SSFRMFQSSVE--KNLLFKDSTKCLQE
+TRFE_ORYLA                          RSDVVRVLQVQQTFFGASGSD--PSFKLFQSQNG--NNLLFKDSTKCLQE
+TRFE_GADMO                          RDDVVKMLLDQQRKFGIDGSD--PLFRIYESKDG--NNLLFKDSTKCLKE
+TRFE_PAROL                          RTKVVTFLNNQQSHFGNSASE--ESFKMFTSPDG--ENLLFKYSTKCLQE
+TRFM_HUMAN                          IFTVYGLLDKAQDLFGDDHNK--NGFKMFDSSNYHGQDLLFKDATVRAVP
+TRF_BLADI                           TDIQLNEIRHAILAAGDLYSRRPDLFKLFGDFGG-TKDLLFKNSATGLL-
+
+1lcf_                               LHG--KTTYEKYLGPQYVAGITNLKK--CSTS--PLLEACEFLRK-----
+1aov_                               LRQ--GITYKEFLGDEYYASVASLNT--CNPS--DLLQVCTFLEDK----
+1jnf_A                              LRG--KNTYEKYLGADYIKAVSNLRK--CSTS--RLLEACTFHKH-----
+TRFE_XENLA                          IPS--KTTMQEFLGDKYHTAVTSLNK--CSTS--RLLAACTFHAA-----
+SAX_RANCA                           FDRQPKDIMEDYFGKPYYTTVYGASR--SAMSS-ELISACTIKHC-----
+TRF1_SALSA                          IPK--GTKYQDFLGKEYMIAMQSLRK--CSDSTSDLEKACTFHSCQQKE-
+TRFE_ORYLA                          VPA--GTSYDQFLGSGYMEAMTSLRK--CSDTASDLEKSCTFHSCQQT--
+TRFE_GADMO                          IPS--LTTADAFLGTGYVNAIMSLRQ--CPETASELEKTCISSSCSTAE-
+TRFE_PAROL                          IPA--HLDYKGFLGQEYMTVMSSLRT--CKESTSDLEQLCTYNMCQT---
+TRFM_HUMAN                          VGE--KTTYRGWLGLDYVAALEGMSSQQCSGAAAPAPGAPLLPLLLPALA
+TRF_BLADI                           -----SVENGSPLMQRYSEILEVIRA--CENQPTP---------------
+
+1lcf_                               --------
+1aov_                               --------
+1jnf_A                              --------
+TRFE_XENLA                          --------
+SAX_RANCA                           --------
+TRF1_SALSA                          --------
+TRFE_ORYLA                          --------
+TRFE_GADMO                          --------
+TRFE_PAROL                          --------
+TRFM_HUMAN                          ARLLPPAL
+TRF_BLADI                           --------
+
+
