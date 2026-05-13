@@ -11,7 +11,7 @@ def convert_to_clustal(input_file, output_file):
     input_file: str, path to the input file
     output_file: str, path to the output file
     """
-    SeqIO.convert(input_file, "msf", output_file, "clustal")
+    SeqIO.convert(input_file, "phylip", output_file, "clustal")
 
 
 #converts all msf files in the input_files directory to clustal format and saves them in the output_files directory
@@ -20,7 +20,7 @@ def file_convert_msf_to_clustal(input_dir, output_dir):
     output_dir = Path(output_dir)
     output_dir.mkdir(exist_ok=True)
 
-    for file_path in input_dir.glob("*.msf"):
+    for file_path in input_dir.glob("*.phy"):
         output_file = output_dir / (file_path.stem + ".clustal")
 
         convert_to_clustal(file_path, output_file)
@@ -31,7 +31,6 @@ def file_convert_msf_to_clustal(input_dir, output_dir):
     print("All files have been converted to clustal format.")
 
 
-#file_convert_msf_to_clustal(r'C:\Users\Sam\Phylogenetic-Tree-Building-Analysis\bb3_release\RV50', r'C:\Users\Sam\Phylogenetic-Tree-Building-Analysis\bb3_release\RV50\clustal_files')
 
 def parse_bio_xml(file_path):
     """Extracts organism data from a single XML file."""
@@ -72,3 +71,5 @@ def process_folder(folder_path, output_csv):
             
             # 3. Write row: index by filename (minus extension)
             writer.writerow([xml_file.stem, json_blob])
+
+file_convert_msf_to_clustal(r'gaps_in_data\JC_high', r'gaps_in_data\JC_high\clustal')
