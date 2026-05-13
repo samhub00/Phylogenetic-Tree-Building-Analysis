@@ -74,7 +74,7 @@ def mp(file, starter_tree, a_format='clustal'):
 
     return pars_tree
 
-def ml(file, model = 'Blosum62', rs=None):
+def ml(file, model = 'JC', rs=None):
     """
     Maximum Likelihood Tree building algorithm. Requires alignment file in phylip format. 
     will use piqtree library for tree building. 
@@ -90,11 +90,13 @@ def ml(file, model = 'Blosum62', rs=None):
     """
 
     try:
-        aln = load_aligned_seqs(file, "clustal", moltype='protein') #chagned from dna to protein for test
+        aln = load_aligned_seqs(file, "clustal", moltype='DNA') #chagned from dna to protein for test
         ml_tree = build_tree(aln, model, rand_seed=rs)
         return ml_tree
     except Exception as e:
         print("Unable to build ML tree, check file format...")
+
+#print(ml(r'ROSE_trees_sequences\HKY_high\clustal\HKY_HIGH_100_500_1.clustal'))
 
 
 def visualize(trees):
