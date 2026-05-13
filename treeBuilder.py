@@ -99,39 +99,50 @@ def ml(file, model = 'JC', rs=None):
 #print(ml(r'ROSE_trees_sequences\HKY_high\clustal\HKY_HIGH_100_500_1.clustal'))
 
 
-def visualize(trees):
+def visualize(trees, tree_names=None):
     """
-    Visualizes a list of trees using matplotlib. Each tree is displayed in a subplot with branch lengths labeled.
-    Opens in separate window.
+    Visualizes a list of trees using matplotlib. Each tree is displayed in a subplot
+    with branch lengths labeled. Opens in a separate window.
+
+    Parameters:
+        trees: list
+            List of tree objects to visualize.
+
+        tree_names: list or None
+            Optional list of names for the trees. Example: ["UPGMA", "NJ"].
+            If not provided, generic names will be used.
     """
 
     num_trees = len(trees)
     cols = 2
     rows = (num_trees + 1) // cols
 
-    # Use squeeze=False to ensure 'axes' is always a 2D array, 
-    # even if there's only one row.
     fig, axes = plt.subplots(rows, cols, figsize=(12, 5 * rows), squeeze=False)
 
     for i, tree in enumerate(trees):
         row = i // cols
         col = i % cols
         ax = axes[row, col]
-        
-        # add titile
-        method_name = ["UPGMA", "NJ", "ML", "MP"][i] if i < 4 else f"Tree {i+1}"
+
+        if tree_names and i < len(tree_names):
+            method_name = tree_names[i]
+        else:
+            method_name = f"Tree {i + 1}"
+
         ax.set_title(method_name)
 
-        # do_show=False prevents the loop from breaking
-        Bio.Phylo.draw(tree, axes=ax, do_show=False, 
-                       branch_labels=lambda c: f"{c.branch_length:.2f}" if c.branch_length else "")
+        Bio.Phylo.draw(
+            tree,
+            axes=ax,
+            do_show=False,
+            branch_labels=lambda c: f"{c.branch_length:.2f}" if c.branch_length else ""
+        )
 
-    # Hide unused subplots (if you have an odd number of trees)
     for j in range(i + 1, rows * cols):
         fig.delaxes(axes[j // cols, j % cols])
 
     plt.tight_layout()
-    plt.show() # Call show ONCE at the very end
+    plt.show()
 
 def build_trees(
         file,
