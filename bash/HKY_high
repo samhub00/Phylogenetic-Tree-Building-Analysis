@@ -1,0 +1,25 @@
+# HKY high
+%include dna-defaults
+
+TheDNAmodel = "HKY" 
+TheAlphabet = "ACGT"
+
+MeanSubstitution = 0.3
+TheInsertThreshold = 0.0005
+TheDeleteThreshold = 0.0005
+
+# Base Frequencies (Should sum to 1.0)
+# Example: Higher AT content
+TheFreq = [.22, .28, .28, .22] 
+
+# Transition/Transversion Bias
+# 1.0 = equal rates; > 1.0 = more transitions
+TransitionBias = 3.0 
+
+StdOut = False
+#SequenceSuffix = ".fas"
+AlignmentFormat = "PHYLIP"
+AlignmentSuffix = ".phy"
+TreeSuffix = ".tree"
+SequenceOutputLen = 2000
+ChooseFromLeaves = True

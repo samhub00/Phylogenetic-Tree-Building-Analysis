@@ -1,0 +1,15 @@
+# JC Low divergence
+
+%include dna-defaults
+
+TheDNAmodel = "JC"
+MeanSubstitution = 0.05
+TheInsertThreshold = 0.0
+TheDeleteThreshold = 0.0
+
+AlignmentFormat = "PHYLIP"
+#SequenceSuffix = ".fas"
+AlignmentSuffix = ".phy"
+TreeSuffix = ".tree"
+StdOut = False
+
