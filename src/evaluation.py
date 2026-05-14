@@ -345,11 +345,6 @@ def analyze_file(msa_file, output_dir, tree_types):
 
     print(f"Analysis complete for {msa_file}.")
 
-
-
-#Sample analysis of a single file
-#analyze_file(r'bb3_release\RV50\clustal_files\BBS50006.clustal')
-
 def analyze_folder(folder_path, output_dir, tree_types):
     """
     Folder processing wrapper for analyze_file
@@ -362,8 +357,6 @@ def analyze_folder(folder_path, output_dir, tree_types):
         
         print(f"Analyzing {msa_file.name}...")
         analyze_file(msa_file, output_dir, tree_types)
-
-
 
 def taxa_count(msa_file):
     """
@@ -392,7 +385,6 @@ def taxa_count(msa_file):
                 return count
                 
         return count
-
 
 def folder_taxa_counts(folder_path):
     """
