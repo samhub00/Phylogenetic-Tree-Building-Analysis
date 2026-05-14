@@ -1,4 +1,4 @@
-from treeBuilder import build_trees, visualize
+from tree_builder import build_trees, visualize
 
 
 def get_positive_integer(prompt):
