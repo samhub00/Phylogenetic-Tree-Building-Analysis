@@ -10,24 +10,24 @@ Provide Best Practices: Offer recommendations on which algorithm to use based on
 
 # 2. Algorithms to be Tested
 
-Distance-based:  Unweighted Pair Group Method with Arithmetic Mean (UPGMA), Neighbor-Joining (NJ), Balanced Minimum Evolution (BME/FastME).
+Distance-based:  Unweighted Pair Group Method with Arithmetic Mean (UPGMA), Neighbor-Joining (NJ)
 
 Character-based (Parsimony): Maximum Parsimony (MP).
 
-Character-based (Likelihood): Maximum Likelihood (ML) - specifically RAxML and IQ-TREE.
+Character-based (Likelihood): Maximum Likelihood (ML) - specifically IQ-TREE.
 
 # 3. Data Generation and Datasets
 
 To overcome the lack of a "gold standard" in real-world data, the project will rely heavily on simulation, supplemented by carefully selected empirical data.
 
 ## A. Simulated Data (The Core Framework)
-Using tools like INDELible or Rose, generate sequences along known "true" trees. Parameters to vary:
+Using tools like ROSE, generate sequences along known "true" trees. Parameters to vary:
 
 Taxa Number: Small (10-50), Medium (100-500), Large (1000+).
 
 Sequence Length: Short (500 bp), Long (5000+ bp).
 
-Evolutionary Model: Jukes-Cantor (JC), General Time Reversible (GTR) + Gamma (\(\Gamma \)) rate heterogeneity.
+Evolutionary Model: Jukes-Cantor (JC), Hasegawa (HKY)
 
 Evolutionary Rate: Low divergence (conserved) vs. high divergence (saturated).
 
