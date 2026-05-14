@@ -1,3 +1,0 @@
-algorithm,runtime_sec,num_taxa,total_branch_length,tree_file
-UPGMA,0.018879175186157227,6,1.0499895403741557,wolf_upgma_tree.nwk
-NJ,0.01689934730529785,6,1.0470869942023788,wolf_nj_tree.nwk
