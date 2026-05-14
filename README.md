@@ -1,4 +1,4 @@
-### Phylogenetic-Tree-Building-Analysis
+# Phylogenetic-Tree-Building-Analysis
 
 Created by: Sam Hubler, Andrew Le, and Ryan Cartwright
 
@@ -43,12 +43,12 @@ Select datasets with known "species trees" to compare against gene trees.
 ## 4. How to run
 Please consult the INSTALL file for more information on installing and running the program.
 
-## Code Details
+# Code Details
 
 main.py: Main is our text UI that will assist the user in deciding which phylogenetic tree building
 algortithm suits them best.
 
-# tree_builder.py: 
+## tree_builder.py: 
 
 Tree builder is our tree building python module. It uses two main libraries, Biopython and piqtree. Biopython handles the UPGMA, NJ, and ML tree building algorithms. piqtree is used to implement the ML tree building algorithm. 
 
@@ -56,7 +56,7 @@ Inside tree builder also resides some file formatting methods. You can use these
 
 Tree builder also handles our tree visualization which is done with matplotlib and biopythons draw method. Biopython also supports an ASCII art tree building although the graphic data is more comprehensive. 
 
-# evaluation.py: 
+## evaluation.py: 
 
 Evaluation.py is where the evaluation of the trees runs. In the evaluation module users are able to evaluate their trees compartively as well as use the pc performance wrapper function to measure run times and ram usage. A comprehensive analysis of the tree builidng algorithms will result in info on run time, sequence length, taxonomy count (if unknown), and peak ram usage. 
 
@@ -64,21 +64,21 @@ Another thing that users are able to do using the evaluation module is measure t
 
 There are wrapper methods for these evaluations that can evaluate folders at a time.
 
-# file_manager.py
+## file_manager.py
 
 File manager was created to be able to grab the taxonomy data from the balibase xml files. It can convert files to clustal format which is what we chose to use for all of our analysis and tree building.
 
-# visualization.py
+## visualization.py
 
 Visualization is a module used to generate the graphs seen in the figures file. It will create scatter plots and heatmaps based on time and ram usage as well as accuracy metrics. Most of the scatter plots and heatmaps have a wrapper that generates graphs for all four of our algorithms used as this was the best and fastest way to compare all four together. The heatmaps and graphs are made using seaborn, matplotlib, and handle data passed to them through pandas dataframes. 
 
-# FINAL_CSVs
+## FINAL_CSVs
 
 This folder contains the final csvs from our tree building and analysis. They can be used to generate visuals to explore the data that we collected
 
-# bash
+## bash
 
 This folder contains the shell programs I used with the ROSE software to generate the sequences used for the analysis. There are four config files for high and low divergence of the JC and HKY mutation scales. The run_all script allowed me to collect the data faster and I included it for ease of use and data replication. 
 
-# Questions
+### Questions
 If questions arise surrounding features, please email me at samuel.hubler@sjsu.edu and I will do my best to answer them.
