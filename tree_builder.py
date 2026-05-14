@@ -11,9 +11,6 @@ import matplotlib.pyplot as plt
 def file_convert(input_file, i_type, output_file, o_type):
     SeqIO.convert(input_file, i_type, output_file, o_type)
 
-#file_convert('BB20001.msf', 'msf', 'BB20001.clustal', 'clustal')
-
-#SH
 def get_dm(file, file_format="clustal", model="identity"):
     """
     Takes in exactly one multiple sequence alignment file and returns a distance matrix.
@@ -49,7 +46,6 @@ def upgma(dm):
     upgma_tree = constructor.upgma(dm)
     return upgma_tree
 
-
 def nj(dm):
     """
     Uses the Neighbor Joining tree building algorithm to build a tree from a distance matrix.
@@ -57,7 +53,6 @@ def nj(dm):
     constructor = DistanceTreeConstructor()
     nj_tree = constructor.nj(dm)
     return nj_tree
-
 
 def mp(file, starter_tree, a_format='clustal'):
     """
@@ -95,9 +90,6 @@ def ml(file, model = 'JC', rs=None):
         return ml_tree
     except Exception as e:
         print("Unable to build ML tree, check file format...")
-
-#print(ml(r'ROSE_trees_sequences\HKY_high\clustal\HKY_HIGH_100_500_1.clustal'))
-
 
 def visualize(trees, tree_names=None):
     """
@@ -199,11 +191,3 @@ def build_trees(
     #return list of trees in the order of UPGMA, NJ, ML, MP
     return trees
 
-"""
-TODO:
-    hook up indelible or rose for true trees
-    add ncbi number to name for display purposes
-    export tree lengths for evaluation
-"""
-
-#visualize(build_trees(r'bb3_release\RV50\clustal_files\BBS50006.clustal', model='blosum62', ml_model='Blosum62', ml_random_seed=1))
